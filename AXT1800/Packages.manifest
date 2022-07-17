@@ -30,6 +30,36 @@ Size: 21074
 SHA256sum: ab3bd2b8a48cb6fe2ec444327cbfb68153f76d8a3cfe4220b3b6eabddb293e14
 Description:  LuCI Support for aliyundrive-webdav
 
+Package: luci-app-argon-config
+Version: 0.9
+Depends: libc, luci-compat, luci-theme-argon
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1651721098
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3608
+Filename: luci-app-argon-config_0.9_all.ipk
+Size: 4497
+SHA256sum: b10a215abab4c9801390f3138cf5fc92a5c5e42bd9ff12970b9773900dfe589d
+Description:  LuCI page for Argon Config
+
+Package: luci-app-argonne-config
+Version: 1.2
+Depends: libc, luci-compat, luci-theme-argonne
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-argonne-config
+SourceName: luci-app-argonne-config
+Section: luci
+SourceDateEpoch: 1651721098
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3616
+Filename: luci-app-argonne-config_1.2_all.ipk
+Size: 4505
+SHA256sum: 242e40f3e0710d57ec89be9e5bb4a003a21793c1078bfae1526a9fb44b364f0f
+Description:  LuCI page for Argonne Config
+
 Package: luci-app-openclash
 Version: 0.45.35-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun
@@ -137,6 +167,36 @@ Size: 2325
 SHA256sum: 43ee357c3a74291a09e12aa906da39e2f90727d474989e1ec0cd3149f50b0340
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
+Package: luci-i18n-argon-config-zh-cn
+Version: git-22.125.12298-0b04b91
+Depends: libc, luci-app-argon-config
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-argon-config
+SourceName: luci-i18n-argon-config-zh-cn
+Section: luci
+SourceDateEpoch: 1651721098
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 1457
+Filename: luci-i18n-argon-config-zh-cn_git-22.125.12298-0b04b91_all.ipk
+Size: 2368
+SHA256sum: a9a8180a5b4fdbdfeba8c851fce4be52d5f84c3bf54f169efe157d73602e3124
+Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-argonne-config-zh-cn
+Version: git-22.125.12298-0b04b91
+Depends: libc, luci-app-argonne-config
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-argonne-config
+SourceName: luci-i18n-argonne-config-zh-cn
+Section: luci
+SourceDateEpoch: 1651721098
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 1452
+Filename: luci-i18n-argonne-config-zh-cn_git-22.125.12298-0b04b91_all.ipk
+Size: 2366
+SHA256sum: 203cf87a32195f4c8008e925c0c3ba29db4a6e91f7ec9ca65e0408ced9725084
+Description:  Translation for luci-app-argonne-config - 简体中文 (Chinese Simplified)
+
 Package: luci-i18n-passwall2-zh-cn
 Version: git-22.182.44403-d92bdee
 Depends: libc, luci-app-passwall2
@@ -180,6 +240,125 @@ Filename: luci-i18n-smartdns-zh-cn_git-21.281.64986-23babd7_all.ipk
 Size: 3697
 SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
+
+Package: luci-theme-argon
+Version: 2.2.9.4
+Depends: libc, curl, jsonfilter
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1654258786
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 414981
+Filename: luci-theme-argon_2.2.9.4_all.ipk
+Size: 415570
+SHA256sum: 90206355a4aad31b63245263179b0dafea8463ab815e0afc1d629b0e429f1437
+Description:  Argon Theme
+
+Package: luci-theme-argonne
+Version: 1.7.3
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-argonne
+SourceName: luci-theme-argonne
+Section: luci
+SourceDateEpoch: 1650788755
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 360088
+Filename: luci-theme-argonne_1.7.3_all.ipk
+Size: 360881
+SHA256sum: 8ce723739559fd3584ea89b062797c0564df32d409275bf326ba847d7e8ac19a
+Description:  Argonne kenzo
+
+Package: luci-theme-atmaterial_new
+Version: 1.2
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-atmaterial_new
+SourceName: luci-theme-atmaterial_new
+Section: luci
+SourceDateEpoch: 1648178727
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 610871
+Filename: luci-theme-atmaterial_new_1.2_all.ipk
+Size: 611623
+SHA256sum: 7d05b72dd60bcbb5042cad408b1df48f0b126edbc4c33581c705bcad0f2236db
+Description:  Atmaterial_new kenzo
+
+Package: luci-theme-edge
+Version: git-22.177.31951-a52e4b9
+Depends: libc, curl
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-edge
+SourceName: luci-theme-edge
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1656233551
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 231336
+Filename: luci-theme-edge_git-22.177.31951-a52e4b9_all.ipk
+Size: 232295
+SHA256sum: e22c0638bdf5771d1562cae928c9efd3ed553c2ddd718ea6fd7c20dd4f09a1f6
+Description:  Edge Theme
+
+Package: luci-theme-ifit
+Version: 1.6-1
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-ifit
+SourceName: luci-theme-ifit
+Section: luci
+SourceDateEpoch: 1653740236
+Architecture: all
+Installed-Size: 2120278
+Filename: luci-theme-ifit_1.6-1_all.ipk
+Size: 2121168
+SHA256sum: c06a04a1bb7764f169744b847f26bb45d2634b63d09a3b7e8ca2b0811b59565b
+Description:  Ifit by kenzo
+
+Package: luci-theme-mcat
+Version: 0.2.50-1
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-mcat
+SourceName: luci-theme-mcat
+Section: luci
+SourceDateEpoch: 1648178727
+Architecture: all
+Installed-Size: 208423
+Filename: luci-theme-mcat_0.2.50-1_all.ipk
+Size: 209294
+SHA256sum: 4c0c22bbccb1c94e45c47f0a4c2476cf7605f98df9931028a61676ffffef27d2
+Description:  Mcat new kenzo
+
+Package: luci-theme-neobird
+Version: 2.0
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-neobird
+SourceName: luci-theme-neobird
+Section: luci
+SourceDateEpoch: 1652518237
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 307741
+Filename: luci-theme-neobird_2.0_all.ipk
+Size: 308684
+SHA256sum: e50e7cbbd12f492ced17b1481343e138203e15fb7ed415a4c70344c6f550fe68
+Description:  Neobird Theme
+
+Package: luci-theme-tomato
+Version: git-22.084.12327-e608761
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-tomato
+SourceName: luci-theme-tomato
+Section: luci
+SourceDateEpoch: 1648178727
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 209575
+Filename: luci-theme-tomato_git-22.084.12327-e608761_all.ipk
+Size: 210500
+SHA256sum: ab3d70961e0d4f61d4bbf34365a9e92cdb2f48c1f8843d292c998d5be5489114
+Description:  Tomato new kenzo
 
 Package: shadowsocks-libev-config
 Version: 3.3.5-5
