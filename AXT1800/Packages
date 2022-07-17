@@ -1,0 +1,246 @@
+Package: aliyundrive-webdav
+Version: 1.8.0-49
+Depends: libc
+License: MIT
+Section: multimedia
+Architecture: arm_cortex-a7
+Installed-Size: 3277656
+Filename: aliyundrive-webdav_1.8.0-49_arm_cortex-a7.ipk
+Size: 3279034
+SHA256sum: 541e0d12a8264accda743942b40f023f169b9f025d2b30388ee23f100938f38e
+Description:  WebDAV server for AliyunDrive.
+
+Package: luci-app-aliyundrive-webdav
+Version: 1.8.0
+Depends: libc, aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 20179
+Filename: luci-app-aliyundrive-webdav_1.8.0_all.ipk
+Size: 21074
+SHA256sum: ab3bd2b8a48cb6fe2ec444327cbfb68153f76d8a3cfe4220b3b6eabddb293e14
+Description:  LuCI Support for aliyundrive-webdav
+
+Package: luci-app-openclash
+Version: 0.45.35-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun
+Section: opt
+Architecture: all
+Installed-Size: 3865258
+Filename: luci-app-openclash_0.45.35-beta_all.ipk
+Size: 3848890
+SHA256sum: 5c46cb30cc1c2ed47804b4cd6fd657b712b12b76bb997ffaba5eef8e5472b2c4
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall2
+Version: 1.4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, v2ray-plugin
+Section: luci
+Architecture: all
+Installed-Size: 183872
+Filename: luci-app-passwall2_1.4_all.ipk
+Size: 184996
+SHA256sum: 07c1005f46fb823a1ab610dae949d5c2a24fc13fdfa80b209d157233b85f06ac
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-ramfree
+Version: 1.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 425
+Filename: luci-app-ramfree_1.0_all.ipk
+Size: 1264
+SHA256sum: cbcaae332e0226eeac51a4a6f08c45bfb47d7508f7a148629d90d6d7aad1c7ab
+Description:  Add Release RAM Button
+
+Package: luci-app-serverchan
+Version: 2.01.4
+Depends: libc, iputils-arping, curl, jq
+Section: luci
+Architecture: all
+Installed-Size: 52983
+Filename: luci-app-serverchan_2.01.4_all.ipk
+Size: 54000
+SHA256sum: 7ce69f33e2bfeed9f656fdbfbe870b4f8543fd85d726ec5b663afe4ca74bae2a
+Description:  LuCI support for serverchan
+
+Package: luci-app-UUGameAcc
+Version: 20210806-2.13.4
+Depends: libc, kmod-tun
+Section: luci
+Architecture: all
+Installed-Size: 5457262
+Filename: luci-app-UUGameAcc_20210806-2.13.4_all.ipk
+Size: 5449054
+SHA256sum: f25cb57e6bba0d755503a0a4b4665525eec4aa3c84fe29593f236c7683cf1d03
+Description:  LuCI Support of Simple Switch to turn UUGameAcc ON/OFF
+
+Package: luci-i18n-aliyundrive-webdav-zh-cn
+Version: 1.8.0-1
+Depends: libc, luci-app-aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1412
+Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.0-1_all.ipk
+Size: 2325
+SHA256sum: 43ee357c3a74291a09e12aa906da39e2f90727d474989e1ec0cd3149f50b0340
+Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall2-zh-cn
+Version: git-22.182.44403-d92bdee
+Depends: libc, luci-app-passwall2
+Section: luci
+Architecture: all
+Installed-Size: 9360
+Filename: luci-i18n-passwall2-zh-cn_git-22.182.44403-d92bdee_all.ipk
+Size: 10227
+SHA256sum: 7ae8fdd439503687433bbc58893d422b55d45f2be5da7d5f419f9a083ccc2ac7
+Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ramfree-zh-cn
+Version: git-21.267.56247-16a922f
+Depends: libc, luci-app-ramfree
+Section: luci
+Architecture: all
+Installed-Size: 421
+Filename: luci-i18n-ramfree-zh-cn_git-21.267.56247-16a922f_all.ipk
+Size: 1281
+SHA256sum: 1ce0121a7783f68d15caca5cabee2b85ffee3676ee97809fdfc7f62350b42d9d
+Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-5
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 2855
+Filename: shadowsocks-libev-config_3.3.5-5_arm_cortex-a7.ipk
+Size: 3679
+SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 48289
+Filename: shadowsocks-libev-ss-local_3.3.5-5_arm_cortex-a7.ipk
+Size: 49115
+SHA256sum: 9dc0d4f17efbdf815fda7804a85b52266923b6ef3528f83290aefa8850d22688
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 43614
+Filename: shadowsocks-libev-ss-redir_3.3.5-5_arm_cortex-a7.ipk
+Size: 44281
+SHA256sum: 0ebf58d531c5737cb22e13cc97b083eb575ec2f0c2dc1298d713a2b801c5500d
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 59578
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7.ipk
+Size: 60362
+SHA256sum: 741d17b41c556c14d48a397994fc98486842b32bf511a6b34fe1962b7d5a0304
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 53926
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7.ipk
+Size: 54599
+SHA256sum: 36c13d4956b91747a03c3b9d593e7130a6aaeecdff9b8a0755d32ebaaf6d542e
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs
+Version: 0.0.5-8
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 27267
+Filename: simple-obfs_0.0.5-8_arm_cortex-a7.ipk
+Size: 28148
+SHA256sum: fbb36fdc97f3b52f1680e2334ab5942aa20c6740755cfeb713f0743caf8b3d05
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 3504
+Filename: tcping_0.3-1_arm_cortex-a7.ipk
+Size: 4235
+SHA256sum: bfe24b1cc239f6e05f490ece7ac60d546eb77d6d87abb7b342bb078f6da2f66f
+Description:  tcping measures the latency of a tcp-connection
+
+Package: v2ray-geoip
+Version: 202206160052-8
+Depends: libc
+License: CC-BY-SA-4.0
+Section: net
+Architecture: all
+Installed-Size: 2136064
+Filename: v2ray-geoip_202206160052-8_all.ipk
+Size: 1876157
+SHA256sum: a30fb248fe87e3cf0b38a67008be32e6a543a646b1c19b5d6672f39202a0ebff
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20220620091914-8
+Depends: libc
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 337430
+Filename: v2ray-geosite_20220620091914-8_all.ipk
+Size: 337391
+SHA256sum: 544d033ae406677a4bca8ccf4467389c3beedc8dbb007f531efd5ac943d72065
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.0.7-26
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 4432631
+Filename: v2ray-plugin_5.0.7-26_arm_cortex-a7.ipk
+Size: 4428011
+SHA256sum: 8ea75ef9ee209961ea008e584dfba44d4a4e7c42a37ac3dc617dd62ebd7249b9
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 1.5.9-34
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 6794813
+Filename: xray-core_1.5.9-34_arm_cortex-a7.ipk
+Size: 6786954
+SHA256sum: ba28f484ba3ea067c237edf57564df33d8443fa3d880a7d4ba0f7df2d175bffa
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
