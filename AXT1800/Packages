@@ -66,6 +66,18 @@ Size: 54000
 SHA256sum: 7ce69f33e2bfeed9f656fdbfbe870b4f8543fd85d726ec5b663afe4ca74bae2a
 Description:  LuCI support for serverchan
 
+Package: luci-app-smartdns
+Version: 1.2020.30
+Depends: libc, smartdns
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 3999
+Filename: luci-app-smartdns_1.2020.30_all.ipk
+Size: 4828
+SHA256sum: 8a4950ef37803fa769d821f9a7a119a37e895441531d2a64922858a0d2e09c73
+Description:  Provides Luci for smartdns
+
 Package: luci-app-UUGameAcc
 Version: 20210806-2.13.4
 Depends: libc, kmod-tun
@@ -110,6 +122,18 @@ Filename: luci-i18n-ramfree-zh-cn_git-21.267.56247-16a922f_all.ipk
 Size: 1281
 SHA256sum: 1ce0121a7783f68d15caca5cabee2b85ffee3676ee97809fdfc7f62350b42d9d
 Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-smartdns-zh-cn
+Version: git-21.281.64986-23babd7
+Depends: libc, luci-app-smartdns
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 2820
+Filename: luci-i18n-smartdns-zh-cn_git-21.281.64986-23babd7_all.ipk
+Size: 3697
+SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
+Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
 
 Package: shadowsocks-libev-config
 Version: 3.3.5-5
@@ -182,6 +206,20 @@ Filename: simple-obfs_0.0.5-8_arm_cortex-a7.ipk
 Size: 28148
 SHA256sum: fbb36fdc97f3b52f1680e2334ab5942aa20c6740755cfeb713f0743caf8b3d05
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: smartdns
+Version: 1.2020.30-1
+Depends: libc, libpthread, libopenssl1.1
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 72462
+Filename: smartdns_1.2020.30-1_arm_cortex-a7.ipk
+Size: 73348
+SHA256sum: df7745361f8f0513131cb91b8a943b3b416ee5e7f1a20215237ed92b5cbbc427
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
 
 Package: tcping
 Version: 0.3-1
