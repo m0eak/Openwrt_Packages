@@ -10,6 +10,35 @@ Size: 3279034
 SHA256sum: 541e0d12a8264accda743942b40f023f169b9f025d2b30388ee23f100938f38e
 Description:  WebDAV server for AliyunDrive.
 
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+License: AGPL-3.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 27466
+Filename: ipt2socks_1.1.3-3_arm_cortex-a7.ipk
+Size: 28272
+SHA256sum: fd05f5ec39b7e5514470d4a765c81f5e9620909078343ae5b15efbc9d654bf3e
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: libmbedtls12
+Version: 2.16.12-4
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a7
+Installed-Size: 162852
+Filename: libmbedtls12_2.16.12-4_arm_cortex-a7.ipk
+Size: 163588
+SHA256sum: 89cd0a8254c9b5219f177b11dc5dc95b63d7cf8b6e3fa8f331890bab677bcb1d
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
 Package: luci-app-aliyundrive-webdav
 Version: 1.8.0
 Depends: libc, aliyundrive-webdav
