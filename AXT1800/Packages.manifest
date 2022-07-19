@@ -96,6 +96,21 @@ Size: 21074
 SHA256sum: ab3bd2b8a48cb6fe2ec444327cbfb68153f76d8a3cfe4220b3b6eabddb293e14
 Description:  LuCI Support for aliyundrive-webdav
 
+Package: luci-app-appfilter
+Version: 5.0.1
+Depends: libc, appfilter
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-appfilter
+SourceName: luci-app-appfilter
+Section: luci
+SourceDateEpoch: 1628594883
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 269746
+Filename: luci-app-appfilter_5.0.1_all.ipk
+Size: 270809
+SHA256sum: 974396275021fb025facc43bb1f6e7ae8c27b61d1729d35553d9ae39fc3f5fea
+Description:  Open App Filter Module
+
 Package: luci-app-argon-config
 Version: 0.9
 Depends: libc, luci-compat, luci-theme-argon
@@ -262,6 +277,20 @@ Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.0-1_all.ipk
 Size: 2325
 SHA256sum: 43ee357c3a74291a09e12aa906da39e2f90727d474989e1ec0cd3149f50b0340
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-appfilter-zh-cn
+Version: git-21.082.35948-385f6cc
+Depends: libc, luci-app-appfilter
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-appfilter
+SourceName: luci-i18n-appfilter-zh-cn
+Section: luci
+SourceDateEpoch: 1628594883
+Architecture: all
+Installed-Size: 740
+Filename: luci-i18n-appfilter-zh-cn_git-21.082.35948-385f6cc_all.ipk
+Size: 1617
+SHA256sum: e754dc67dac2e16e9156ac7b09cf66c435919e8859df370c2a793a5312f656bb
+Description:  Translation for luci-app-appfilter - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-cn
 Version: git-22.125.12298-0b04b91
