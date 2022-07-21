@@ -203,6 +203,21 @@ Size: 3857
 SHA256sum: a621d5f9aebe3aae6ba9481c5ea74247f4c5cc160b3507abe6845da084eab2ff
 Description:  LuCI support for BaiduPCS-Go
 
+Package: luci-app-cpufreq
+Version: 1
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-cpufreq
+SourceName: luci-app-cpufreq
+Section: luci
+SourceDateEpoch: 1651809262
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2507
+Filename: luci-app-cpufreq_1_all.ipk
+Size: 3408
+SHA256sum: 28972423757412873a0746aab233ba10d05b8dcdf81e912da5800a8e1edc10aa
+Description:  LuCI for CPU Freq Setting
+
 Package: luci-app-openclash
 Version: 0.45.35-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun
@@ -383,6 +398,20 @@ Filename: luci-i18n-autoreboot-zh-cn_git-21.324.28924-4b5ef99_all.ipk
 Size: 1405
 SHA256sum: f4bde4591f8a7d024d6fd483c2dc5aef82fe1942f3385b239b8db48f38338f07
 Description:  Translation for luci-app-autoreboot - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-cpufreq-zh-cn
+Version: git-21.134.64880-4f62c44
+Depends: libc, luci-app-cpufreq
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-cpufreq
+SourceName: luci-i18n-cpufreq-zh-cn
+Section: luci
+SourceDateEpoch: 1651809262
+Architecture: all
+Installed-Size: 828
+Filename: luci-i18n-cpufreq-zh-cn_git-21.134.64880-4f62c44_all.ipk
+Size: 1724
+SHA256sum: 81247f7658f4bc31d81413db07caee2076a990a340930c2bf15b9f07331ed269
+Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
 Version: git-22.182.44403-d92bdee
