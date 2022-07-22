@@ -30,6 +30,22 @@ Size: 3276094
 SHA256sum: ef988c7219ab3168e24e41d1fdf9218667baca15c3c808cf6724a6ae6507dcd6
 Description:  WebDAV server for AliyunDrive.
 
+Package: aliyundrive-webdav
+Version: 1.8.2-51
+Depends: libc
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
+SourceName: aliyundrive-webdav
+License: MIT
+Section: multimedia
+SourceDateEpoch: 1658492482
+Maintainer: messense <messense@icloud.com>
+Architecture: arm_cortex-a7
+Installed-Size: 3302044
+Filename: aliyundrive-webdav_1.8.2-51_arm_cortex-a7.ipk
+Size: 3303330
+SHA256sum: e70dae4664116c285abd94f44019e968b3116309a78eb3ee18b92059aecdafd0
+Description:  WebDAV server for AliyunDrive.
+
 Package: appfilter
 Version: 5.0-1
 Depends: libc, libubox20220515, libubus20210809, libuci20130104, libpthread, libjson-c5, libblobmsg-json20220515
@@ -59,6 +75,25 @@ Filename: baidupcs-web_3.7.4-nnew-8_arm_cortex-a7.ipk
 Size: 4195982
 SHA256sum: 9c6a85e2f036f1b7dde5a9f0320dd22390dd02ba16a3fb2503544fa91fd4132f
 Description:  A web controller for BaiduPCS-Go
+
+Package: hysteria
+Version: 1.1.0-29
+Depends: libc, ca-bundle
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1657381246
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7
+Installed-Size: 5712516
+Filename: hysteria_1.1.0-29_arm_cortex-a7.ipk
+Size: 5705865
+SHA256sum: e1f9a6f8f3a7042efce6dd24cbb5990fa4a52bd2787a70aa0c7cb410df808b77
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
 
 Package: ipt2socks
 Version: 1.1.3-3
@@ -96,6 +131,22 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
+Package: lua-maxminddb
+Version: 0.2-4
+Depends: libc, lua, libmaxminddb
+Source: /home/m0eak/gl-infra-builder/feeds/glinet/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1634959980
+Maintainer: fabled
+Architecture: arm_cortex-a7
+Installed-Size: 2309
+Filename: lua-maxminddb_0.2-4_arm_cortex-a7.ipk
+Size: 3038
+SHA256sum: 13b4d076507740f6b250e4452fc13aa5dd0a5781ff766833f95221d82bc3f395
+Description:  libmaxminddb bindings for lua
+
 Package: luci-app-aliyundrive-webdav
 Version: 1.8.0
 Depends: libc, aliyundrive-webdav
@@ -126,6 +177,22 @@ Installed-Size: 20179
 Filename: luci-app-aliyundrive-webdav_1.8.1_all.ipk
 Size: 21074
 SHA256sum: e64b3eee672b2e895b52b5493af2d50f376db5f7621e9efee9bc5adca667bc89
+Description:  LuCI Support for aliyundrive-webdav
+
+Package: luci-app-aliyundrive-webdav
+Version: 1.8.2
+Depends: libc, aliyundrive-webdav
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
+SourceName: luci-app-aliyundrive-webdav
+License: MIT
+Section: luci
+SourceDateEpoch: 1658492482
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20511
+Filename: luci-app-aliyundrive-webdav_1.8.2_all.ipk
+Size: 21348
+SHA256sum: 4436e9f77015d38baa7c08031c532783a07fb57693e77643c5fdcbcb85876994
 Description:  LuCI Support for aliyundrive-webdav
 
 Package: luci-app-appfilter
@@ -218,6 +285,22 @@ Size: 3408
 SHA256sum: 28972423757412873a0746aab233ba10d05b8dcdf81e912da5800a8e1edc10aa
 Description:  LuCI for CPU Freq Setting
 
+Package: luci-app-diskman
+Version: git-22.193.56947-21fa616
+Depends: libc, blkid, e2fsprogs, parted, smartmontools, lsblk
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-diskman
+SourceName: luci-app-diskman
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1657640947
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20466
+Filename: luci-app-diskman_git-22.193.56947-21fa616_all.ipk
+Size: 21331
+SHA256sum: b33a61e6fb382840bed6e5a26f475c73c90a25dbb87dd54c570d3a4c1782e8ce
+Description:  Disk Manager interface for LuCI
+
 Package: luci-app-openclash
 Version: 0.45.35-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun
@@ -294,6 +377,22 @@ Size: 4828
 SHA256sum: 8a4950ef37803fa769d821f9a7a119a37e895441531d2a64922858a0d2e09c73
 Description:  Provides Luci for smartdns
 
+Package: luci-app-turboacc
+Version: git-22.143.15400-6c728bf
+Depends: libc, pdnsd-alt, kmod-tcp-bbr, kmod-ipt-offload
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-turboacc
+SourceName: luci-app-turboacc
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1653279400
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6473
+Filename: luci-app-turboacc_git-22.143.15400-6c728bf_all.ipk
+Size: 7462
+SHA256sum: e1838808bd485a202adb8534250f75139731e0a023b19b0ef067077b94a1a4ea
+Description:  LuCI support for Flow Offload / Shortcut-FE
+
 Package: luci-app-UUGameAcc
 Version: 20210806-2.13.4
 Depends: libc, kmod-tun
@@ -308,6 +407,36 @@ Filename: luci-app-UUGameAcc_20210806-2.13.4_all.ipk
 Size: 5449054
 SHA256sum: f25cb57e6bba0d755503a0a4b4665525eec4aa3c84fe29593f236c7683cf1d03
 Description:  LuCI Support of Simple Switch to turn UUGameAcc ON/OFF
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, xray-plugin, shadowsocksr-libev-ssr-server, hysteria
+Source: /home/m0eak/gl-infra-builder/feeds/glinet/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1654842975
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5568626
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5293548
+SHA256sum: 462f0208d0d91946fdab337d1018227f022ac7629603ec554504fb07495c567f
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
+Package: luci-app-zerotier
+Version: 1.0
+Depends: libc, zerotier
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1636447587
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3489
+Filename: luci-app-zerotier_1.0_all.ipk
+Size: 4351
+SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
+Description:  LuCI for Zerotier
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.0-1
@@ -339,6 +468,22 @@ Installed-Size: 1413
 Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.1-1_all.ipk
 Size: 2321
 SHA256sum: 2fc35ef2abfc195fdbe97a5696cbef83383ccd78a44caa7a8b353acf49a5f8f9
+Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-aliyundrive-webdav-zh-cn
+Version: 1.8.2-1
+Depends: libc, luci-app-aliyundrive-webdav
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
+SourceName: luci-i18n-aliyundrive-webdav-zh-cn
+License: MIT
+Section: luci
+SourceDateEpoch: 1658492482
+Maintainer: messense <messense@icloud.com>
+Architecture: all
+Installed-Size: 1429
+Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.2-1_all.ipk
+Size: 2341
+SHA256sum: c00cf55eb70389e4a48a82918aaf40f09e01a855e2f924f4b926be7257329de4
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-appfilter-zh-cn
@@ -413,6 +558,22 @@ Size: 1724
 SHA256sum: 81247f7658f4bc31d81413db07caee2076a990a340930c2bf15b9f07331ed269
 Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
 
+Package: luci-i18n-diskman-zh-cn
+Version: git-22.084.46062-e6c56cd
+Depends: libc, luci-app-diskman
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-diskman
+SourceName: luci-i18n-diskman-zh-cn
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1657640947
+Maintainer: lisaac <lisaac.cn@gmail.com>
+Architecture: all
+Installed-Size: 1901
+Filename: luci-i18n-diskman-zh-cn_git-22.084.46062-e6c56cd_all.ipk
+Size: 2823
+SHA256sum: 5441ab0e75cd809f79b8cee3c61640eb226a0d277a4efda2935c561af09c075b
+Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+
 Package: luci-i18n-passwall2-zh-cn
 Version: git-22.182.44403-d92bdee
 Depends: libc, luci-app-passwall2
@@ -456,6 +617,50 @@ Filename: luci-i18n-smartdns-zh-cn_git-21.281.64986-23babd7_all.ipk
 Size: 3697
 SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-turboacc-zh-cn
+Version: git-21.352.51446-210156f
+Depends: libc, luci-app-turboacc
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-turboacc
+SourceName: luci-i18n-turboacc-zh-cn
+License: GPL-3.0-only
+Section: luci
+SourceDateEpoch: 1653279400
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 1334
+Filename: luci-i18n-turboacc-zh-cn_git-21.352.51446-210156f_all.ipk
+Size: 2283
+SHA256sum: ccc72e879fdd0a64f5828fe1ee06922347b4915d677e65725bb60a816b5ddf16
+Description:  Translation for luci-app-turboacc - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-vssr-zh-cn
+Version: git-22.113.16811-e2eee1c
+Depends: libc, luci-app-vssr
+Source: /home/m0eak/gl-infra-builder/feeds/glinet/luci-app-vssr
+SourceName: luci-i18n-vssr-zh-cn
+Section: luci
+SourceDateEpoch: 1654842975
+Architecture: all
+Installed-Size: 5055
+Filename: luci-i18n-vssr-zh-cn_git-22.113.16811-e2eee1c_all.ipk
+Size: 5902
+SHA256sum: 6566e2126bfeb67a6e2383b5edf604cf08ca346c6c2e3a9309873e4ef45b476d
+Description:  Translation for luci-app-vssr - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-zerotier-zh-cn
+Version: git-21.134.64880-4f62c44
+Depends: libc, luci-app-zerotier
+Source: /home/m0eak/gl-infra-builder/feeds/immortalwrt/applications/luci-app-zerotier
+SourceName: luci-i18n-zerotier-zh-cn
+Section: luci
+SourceDateEpoch: 1636447587
+Architecture: all
+Installed-Size: 793
+Filename: luci-i18n-zerotier-zh-cn_git-21.134.64880-4f62c44_all.ipk
+Size: 1675
+SHA256sum: 11c1868e146c11cf3377586de34df1cdc45a8bde7e679212d901311d13ae180c
+Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-argon
 Version: 2.2.9.4
@@ -549,16 +754,16 @@ Description:  Mcat new kenzo
 Package: luci-theme-neobird
 Version: 2.0
 Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-theme-neobird
+Source: /home/m0eak/gl-infra-builder/feeds/glinet/luci-theme-neobird
 SourceName: luci-theme-neobird
 Section: luci
-SourceDateEpoch: 1652518237
+SourceDateEpoch: 1652492037
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 307741
+Installed-Size: 307744
 Filename: luci-theme-neobird_2.0_all.ipk
-Size: 308684
-SHA256sum: e50e7cbbd12f492ced17b1481343e138203e15fb7ed415a4c70344c6f550fe68
+Size: 308677
+SHA256sum: 4c6351e18e050d156af47f51d65396867051cf312c77908e2a3b7ec0d80e51d1
 Description:  Neobird Theme
 
 Package: luci-theme-tomato
@@ -575,6 +780,26 @@ Filename: luci-theme-tomato_git-22.084.12327-e608761_all.ipk
 Size: 210500
 SHA256sum: ab3d70961e0d4f61d4bbf34365a9e92cdb2f48c1f8843d292c998d5be5489114
 Description:  Tomato new kenzo
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1652366302
+Architecture: arm_cortex-a7
+Installed-Size: 86808
+Filename: pdnsd-alt_1.2.9b-par-3_arm_cortex-a7.ipk
+Size: 87649
+SHA256sum: 49c14e5030bb90d73265e31ebcd0feee62f45eb561622fd3f19948f1620e7e12
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
 
 Package: shadowsocks-libev-config
 Version: 3.3.5-5
@@ -627,6 +852,22 @@ Size: 44915
 SHA256sum: 8fc26d5b5d539775dc8e04fb808236d2476a8b336b01d30a6223e513f3017fcb
 Description:  shadowsocks-libev ss-redir
 
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654562647
+Architecture: arm_cortex-a7
+Installed-Size: 2235
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7.ipk
+Size: 3025
+SHA256sum: cbac2b74f70edafd0571d89d083b0f3ad11d3ca89a221abca830699bb8e143a2
+Description:  shadowsocksr-libev ssr-check
+
 Package: shadowsocksr-libev-ssr-local
 Version: 2.5.6-9
 Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
@@ -658,6 +899,22 @@ Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7.ipk
 Size: 53803
 SHA256sum: 2de11d031854202adc3fb872d16a09cafc4aa97cdf3585ac4652525c38bdc5eb
 Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654562647
+Architecture: arm_cortex-a7
+Installed-Size: 62923
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7.ipk
+Size: 63714
+SHA256sum: 6a5d954a370f98ea5fadbf15c026a4db5048ebe0b3737aba18d912229467e2a6
+Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs
 Version: 0.0.5-8
@@ -710,6 +967,22 @@ Filename: tcping_0.3-1_arm_cortex-a7.ipk
 Size: 4239
 SHA256sum: 043b7a6558f974b926132d72695767f0b736bbfe0e6963e117beb8ca6164028d
 Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1652366302
+Maintainer: GreaterFire
+Architecture: arm_cortex-a7
+Installed-Size: 252055
+Filename: trojan_1.16.0-2_arm_cortex-a7.ipk
+Size: 252518
+SHA256sum: b627609427d62363dbb0ac37394e606814bc63e072f883ca4fef30027589656b
+Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: v2ray-geoip
 Version: 202206160052-8
@@ -779,4 +1052,21 @@ Size: 6785794
 SHA256sum: 30e55c4eda90cd4ec94ade504d528339b45334545363b48aff337c0a9e9acfaf
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.5.9-28
+Depends: libc, ca-bundle
+Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1658019626
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7
+Installed-Size: 5139635
+Filename: xray-plugin_1.5.9-28_arm_cortex-a7.ipk
+Size: 5133343
+SHA256sum: b9166d10d21526c7a33ac3cb22dfd372533308604d1750274e130e6d8afe5174
+Description:  SIP003 plugin for Shadowsocks, based on Xray
 
