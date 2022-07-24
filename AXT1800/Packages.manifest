@@ -1,20 +1,4 @@
 Package: aliyundrive-webdav
-Version: 1.8.2-51
-Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
-SourceName: aliyundrive-webdav
-License: MIT
-Section: multimedia
-SourceDateEpoch: 1658492482
-Maintainer: messense <messense@icloud.com>
-Architecture: arm_cortex-a7
-Installed-Size: 3302044
-Filename: aliyundrive-webdav_1.8.2-51_arm_cortex-a7.ipk
-Size: 3303330
-SHA256sum: e70dae4664116c285abd94f44019e968b3116309a78eb3ee18b92059aecdafd0
-Description:  WebDAV server for AliyunDrive.
-
-Package: aliyundrive-webdav
 Version: 1.8.4-52
 Depends: libc
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
@@ -1298,22 +1282,6 @@ Description:  LuaSocket is the most comprehensive networking support
  TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
 
 Package: luci-app-aliyundrive-webdav
-Version: 1.8.2
-Depends: libc, aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-app-aliyundrive-webdav
-License: MIT
-Section: luci
-SourceDateEpoch: 1658492482
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 20511
-Filename: luci-app-aliyundrive-webdav_1.8.2_all.ipk
-Size: 21348
-SHA256sum: 4436e9f77015d38baa7c08031c532783a07fb57693e77643c5fdcbcb85876994
-Description:  LuCI Support for aliyundrive-webdav
-
-Package: luci-app-aliyundrive-webdav
 Version: 1.8.4
 Depends: libc, aliyundrive-webdav
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
@@ -1586,22 +1554,6 @@ Filename: luci-app-zerotier_1.0_all.ipk
 Size: 4351
 SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
 Description:  LuCI for Zerotier
-
-Package: luci-i18n-aliyundrive-webdav-zh-cn
-Version: 1.8.2-1
-Depends: libc, luci-app-aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-i18n-aliyundrive-webdav-zh-cn
-License: MIT
-Section: luci
-SourceDateEpoch: 1658492482
-Maintainer: messense <messense@icloud.com>
-Architecture: all
-Installed-Size: 1429
-Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.2-1_all.ipk
-Size: 2341
-SHA256sum: c00cf55eb70389e4a48a82918aaf40f09e01a855e2f924f4b926be7257329de4
-Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.4-1
