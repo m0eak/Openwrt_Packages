@@ -1,16 +1,4 @@
 Package: aliyundrive-webdav
-Version: 1.8.0-49
-Depends: libc
-License: MIT
-Section: multimedia
-Architecture: arm_cortex-a7
-Installed-Size: 3277656
-Filename: aliyundrive-webdav_1.8.0-49_arm_cortex-a7.ipk
-Size: 3279034
-SHA256sum: 541e0d12a8264accda743942b40f023f169b9f025d2b30388ee23f100938f38e
-Description:  WebDAV server for AliyunDrive.
-
-Package: aliyundrive-webdav
 Version: 1.8.1-50
 Depends: libc
 License: MIT
@@ -112,18 +100,6 @@ Filename: lua-maxminddb_0.2-4_arm_cortex-a7.ipk
 Size: 3038
 SHA256sum: 13b4d076507740f6b250e4452fc13aa5dd0a5781ff766833f95221d82bc3f395
 Description:  libmaxminddb bindings for lua
-
-Package: luci-app-aliyundrive-webdav
-Version: 1.8.0
-Depends: libc, aliyundrive-webdav
-License: MIT
-Section: luci
-Architecture: all
-Installed-Size: 20179
-Filename: luci-app-aliyundrive-webdav_1.8.0_all.ipk
-Size: 21074
-SHA256sum: ab3bd2b8a48cb6fe2ec444327cbfb68153f76d8a3cfe4220b3b6eabddb293e14
-Description:  LuCI Support for aliyundrive-webdav
 
 Package: luci-app-aliyundrive-webdav
 Version: 1.8.1
@@ -327,18 +303,6 @@ Filename: luci-app-zerotier_1.0_all.ipk
 Size: 4351
 SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
 Description:  LuCI for Zerotier
-
-Package: luci-i18n-aliyundrive-webdav-zh-cn
-Version: 1.8.0-1
-Depends: libc, luci-app-aliyundrive-webdav
-License: MIT
-Section: luci
-Architecture: all
-Installed-Size: 1412
-Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.0-1_all.ipk
-Size: 2325
-SHA256sum: 43ee357c3a74291a09e12aa906da39e2f90727d474989e1ec0cd3149f50b0340
-Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.1-1
