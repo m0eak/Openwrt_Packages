@@ -1458,13 +1458,13 @@ Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, c
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1657242020
+SourceDateEpoch: 1658710558
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 3865258
+Installed-Size: 3865027
 Filename: luci-app-openclash_0.45.35-beta_all.ipk
-Size: 3848890
-SHA256sum: 5c46cb30cc1c2ed47804b4cd6fd657b712b12b76bb997ffaba5eef8e5472b2c4
+Size: 3848824
+SHA256sum: 6eb48b984922e02c31838091b237ff2cfefd8c2f1f862167d436cbbcb7dfb1e1
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -1534,13 +1534,13 @@ Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ip
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1658147089
+SourceDateEpoch: 1658838056
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 196210
+Installed-Size: 196205
 Filename: luci-app-ssr-plus_186_all.ipk
-Size: 196387
-SHA256sum: c0fc98e636e34863a3876db221a52f97c2f3eee6c23928d86006e48dadfc51f0
+Size: 196371
+SHA256sum: b5e0603d710e9842760294baef53b2d0a985cf8507f0720c6539de12eba3ba4b
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-turboacc
@@ -1774,12 +1774,12 @@ Depends: libc, luci-app-ssr-plus
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-ssr-plus
 SourceName: luci-i18n-ssr-plus-zh-cn
 Section: luci
-SourceDateEpoch: 1658147089
+SourceDateEpoch: 1658838056
 Architecture: all
-Installed-Size: 5986
+Installed-Size: 5981
 Filename: luci-i18n-ssr-plus-zh-cn_git-22.165.56616-51f41d9_all.ipk
-Size: 6854
-SHA256sum: 15da223581c74e73f0b3200334a27ceaaed15bdacbfd6328f290d1eef8f57014
+Size: 6843
+SHA256sum: b186ed2f15f602e313dc79ee86d0d5df6f89fccdff44edd6b63348a9c1febbb2
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-turboacc-zh-cn
@@ -2805,8 +2805,8 @@ Maintainer: madeye <max.c.lv@gmail.com>
 Architecture: arm_cortex-a7
 Installed-Size: 4431411
 Filename: v2ray-plugin_5.0.7-26_arm_cortex-a7.ipk
-Size: 4427684
-SHA256sum: 301ebca6deab408582ef92f74a7386e10b7d97ac370743e4fb35a4d792273500
+Size: 4427581
+SHA256sum: 7d93d4a033a81ac4525f5b6f47c2e36acb833db7cfa34e36f53d3f19c85134ea
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: wget-ssl
