@@ -10,6 +10,18 @@ Size: 3303386
 SHA256sum: c2a9b15447422561a91b337973b297433b92989dac338668dee3bbeab63ca9ee
 Description:  WebDAV server for AliyunDrive.
 
+Package: aliyundrive-webdav
+Version: 1.8.8-55
+Depends: libc
+License: MIT
+Section: multimedia
+Architecture: arm_cortex-a7
+Installed-Size: 3300778
+Filename: aliyundrive-webdav_1.8.8-55_arm_cortex-a7.ipk
+Size: 3302163
+SHA256sum: 93a1e5b8f25d0d44d07959fb33f5e1cbb6fdd72030a61119c249ad43ba73c3ac
+Description:  WebDAV server for AliyunDrive.
+
 Package: appfilter
 Version: 5.0-1
 Depends: libc, libubox20220515, libubus20210809, libuci20130104, libpthread, libjson-c5, libblobmsg-json20220515
@@ -1015,6 +1027,18 @@ Size: 21346
 SHA256sum: 795e973b465b2d389930b7bdce11c7000ec8f10453d099a67389d05d01dfbaa3
 Description:  LuCI Support for aliyundrive-webdav
 
+Package: luci-app-aliyundrive-webdav
+Version: 1.8.8
+Depends: libc, aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 20511
+Filename: luci-app-aliyundrive-webdav_1.8.8_all.ipk
+Size: 21348
+SHA256sum: 254cd71e1ec817de57d7bbc35ff7dc062787ead567285575408ef65276cd8930
+Description:  LuCI Support for aliyundrive-webdav
+
 Package: luci-app-appfilter
 Version: 5.0.1
 Depends: libc, appfilter
@@ -1102,6 +1126,17 @@ Installed-Size: 3865027
 Filename: luci-app-openclash_0.45.35-beta_all.ipk
 Size: 3848824
 SHA256sum: 6eb48b984922e02c31838091b237ff2cfefd8c2f1f862167d436cbbcb7dfb1e1
+Description:  A LuCI support for clash
+
+Package: luci-app-openclash
+Version: 0.45.41-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 3868947
+Filename: luci-app-openclash_0.45.41-beta_all.ipk
+Size: 3852484
+SHA256sum: 96ba5b8940691e2f537ae11ac05d74c406d51ca39075d6aec607b96c92d29e0b
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -1194,6 +1229,18 @@ Size: 5293548
 SHA256sum: 462f0208d0d91946fdab337d1018227f022ac7629603ec554504fb07495c567f
 Description:  A New SS/SSR/Xray/Trojan LuCI interface
 
+Package: luci-app-xlnetacc
+Version: 1.1-1
+Depends: libc, jshn, curl, openssl-util, luci-compat
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 10684
+Filename: luci-app-xlnetacc_1.1-1_all.ipk
+Size: 11503
+SHA256sum: 3ee62439a2d80dba85dfd372ad04e09a1e9d6cc8029a1bb0e34b4b9db422b03f
+Description:  LuCI Support for XLNetAcc.
+
 Package: luci-app-zerotier
 Version: 1.0
 Depends: libc, zerotier
@@ -1215,6 +1262,18 @@ Installed-Size: 1429
 Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.7-1_all.ipk
 Size: 2341
 SHA256sum: 6108f5b393690cb64941039b7368b9228c4a50f472b4b1818e7e959bfe103cb9
+Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-aliyundrive-webdav-zh-cn
+Version: 1.8.8-1
+Depends: libc, luci-app-aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1430
+Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.8-1_all.ipk
+Size: 2340
+SHA256sum: 157be2d34165adb5a347368ba0d3e0320a2e4555891d9764a603df46a972d8d5
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-appfilter-zh-cn
@@ -1835,18 +1894,6 @@ Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbc
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: shadowsocks-libev-config
-Version: 3.3.5-1
-Depends: libc
-License: GPL-3.0-or-later
-Section: net
-Architecture: arm_cortex-a7
-Installed-Size: 2716
-Filename: shadowsocks-libev-config_3.3.5-1_arm_cortex-a7.ipk
-Size: 3522
-SHA256sum: 6476e1a40d3bdde51a6530c4ec438a6f553b31e9806fdcb4a646a9fa71f4e549
-Description:  shadowsocks-libev config scripts
-
-Package: shadowsocks-libev-config
 Version: 3.3.5-5
 Depends: libc
 License: GPL-3.0-or-later
@@ -1857,18 +1904,6 @@ Filename: shadowsocks-libev-config_3.3.5-5_arm_cortex-a7.ipk
 Size: 3679
 SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
 Description:  shadowsocks-libev config scripts
-
-Package: shadowsocks-libev-ss-local
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
-License: GPL-3.0-or-later
-Section: net
-Architecture: arm_cortex-a7
-Installed-Size: 48287
-Filename: shadowsocks-libev-ss-local_3.3.5-1_arm_cortex-a7.ipk
-Size: 49154
-SHA256sum: 821f047954ab243ecd09ecbd9b0a724c5c0ac7e51672a2fb89391897eeb0dbfe
-Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-local
 Version: 3.3.5-5
@@ -1883,18 +1918,6 @@ SHA256sum: 2c6dfb21b5a603c8dd4bde51a66abe7e9c9c57a3ee62b22da46757d790956a88
 Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-redir
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
-License: GPL-3.0-or-later
-Section: net
-Architecture: arm_cortex-a7
-Installed-Size: 44056
-Filename: shadowsocks-libev-ss-redir_3.3.5-1_arm_cortex-a7.ipk
-Size: 44693
-SHA256sum: 5999a7b8de74871a0d458239e3bb6d410bf0d1c3e77dfa1c027580ec5da1397e
-Description:  shadowsocks-libev ss-redir
-
-Package: shadowsocks-libev-ss-redir
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
 License: GPL-3.0-or-later
@@ -1905,18 +1928,6 @@ Filename: shadowsocks-libev-ss-redir_3.3.5-5_arm_cortex-a7.ipk
 Size: 44915
 SHA256sum: 8fc26d5b5d539775dc8e04fb808236d2476a8b336b01d30a6223e513f3017fcb
 Description:  shadowsocks-libev ss-redir
-
-Package: shadowsocks-libev-ss-server
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
-License: GPL-3.0-or-later
-Section: net
-Architecture: arm_cortex-a7
-Installed-Size: 53222
-Filename: shadowsocks-libev-ss-server_3.3.5-1_arm_cortex-a7.ipk
-Size: 54007
-SHA256sum: 6aa04cb9ceb33b9cf0a67229331250caadfaa1d20d2a037b7180c07bba61265b
-Description:  shadowsocks-libev ss-server
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
