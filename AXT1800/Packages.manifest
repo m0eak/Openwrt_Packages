@@ -1,20 +1,4 @@
 Package: aliyundrive-webdav
-Version: 1.8.4-52
-Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
-SourceName: aliyundrive-webdav
-License: MIT
-Section: multimedia
-SourceDateEpoch: 1658504620
-Maintainer: messense <messense@icloud.com>
-Architecture: arm_cortex-a7
-Installed-Size: 3303989
-Filename: aliyundrive-webdav_1.8.4-52_arm_cortex-a7.ipk
-Size: 3305394
-SHA256sum: 4ac4b860e22e61a7c3dded9c8dab79fd5948c78c1ea028ca65f1660acd1b126e
-Description:  WebDAV server for AliyunDrive.
-
-Package: aliyundrive-webdav
 Version: 1.8.7-54
 Depends: libc
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
@@ -60,7 +44,7 @@ Architecture: arm_cortex-a7
 Installed-Size: 581969
 Filename: aria2_1.35.0-4_arm_cortex-a7.ipk
 Size: 582368
-SHA256sum: faf072fa9dd9010c234225eb20e14424b76c587cfd5813b7a5c0082f9951df6a
+SHA256sum: 216f6fb81058417909771329e0794c6ea9afb3940f00682b5d74250471751397
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -1315,22 +1299,6 @@ Description:  LuaSocket is the most comprehensive networking support
  TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
 
 Package: luci-app-aliyundrive-webdav
-Version: 1.8.4
-Depends: libc, aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-app-aliyundrive-webdav
-License: MIT
-Section: luci
-SourceDateEpoch: 1658504620
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 20509
-Filename: luci-app-aliyundrive-webdav_1.8.4_all.ipk
-Size: 21347
-SHA256sum: 6f833e2dfff0e67ffe09981b9da03792d6af0071498d648dc3e37f852e5b21a6
-Description:  LuCI Support for aliyundrive-webdav
-
-Package: luci-app-aliyundrive-webdav
 Version: 1.8.7
 Depends: libc, aliyundrive-webdav
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
@@ -1603,22 +1571,6 @@ Filename: luci-app-zerotier_1.0_all.ipk
 Size: 4351
 SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
 Description:  LuCI for Zerotier
-
-Package: luci-i18n-aliyundrive-webdav-zh-cn
-Version: 1.8.4-1
-Depends: libc, luci-app-aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-i18n-aliyundrive-webdav-zh-cn
-License: MIT
-Section: luci
-SourceDateEpoch: 1658504620
-Maintainer: messense <messense@icloud.com>
-Architecture: all
-Installed-Size: 1430
-Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.4-1_all.ipk
-Size: 2342
-SHA256sum: 6d0eb14a93f1dc8b21e56b9f175b84f5513dfcbccce413d7ceb253c5280072cb
-Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.7-1
@@ -2394,10 +2346,10 @@ SourceDateEpoch: 1648206727
 CPE-ID: cpe:/a:samba:samba
 Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 8144748
+Installed-Size: 8142491
 Filename: samba4-libs_4.14.12-1_arm_cortex-a7.ipk
-Size: 8061560
-SHA256sum: 64320dc747b0df06797c7dea94d10a9dc3d30adba186933f1e1dbb3330a31922
+Size: 8057873
+SHA256sum: 373b8cf12ddb91b5aaa3b32404b354584aa6445bfae1bfcbfb52eff94cc06046
 Description:  Samba 4.14.12 libs
 
 Package: samba4-server
@@ -2413,10 +2365,10 @@ SourceDateEpoch: 1648206727
 CPE-ID: cpe:/a:samba:samba
 Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 247068
+Installed-Size: 246987
 Filename: samba4-server_4.14.12-1_arm_cortex-a7.ipk
-Size: 247615
-SHA256sum: 0c974a0202c470130898d728cae13502cb32233094f5b793493b65f177f337b8
+Size: 247482
+SHA256sum: 72be5447369ab87e1883c45a2026d272a804e15bab4bee0694cde2d13d291a57
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  
@@ -2634,10 +2586,10 @@ Section: net
 SourceDateEpoch: 1584722017
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 72489
+Installed-Size: 72491
 Filename: smartdns_1.2020.30-1_arm_cortex-a7.ipk
-Size: 73230
-SHA256sum: 57c8bb0580048a39b5046547cdb7a8f784a77200280a5a5da778973746f197f3
+Size: 73242
+SHA256sum: 53e38f6ed846d86c0c971e25b5d353f65e8bc8b379d138f95fae5a54145dbfbc
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
