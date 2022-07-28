@@ -1,16 +1,4 @@
 Package: aliyundrive-webdav
-Version: 1.8.7-54
-Depends: libc
-License: MIT
-Section: multimedia
-Architecture: arm_cortex-a7
-Installed-Size: 3301994
-Filename: aliyundrive-webdav_1.8.7-54_arm_cortex-a7.ipk
-Size: 3303386
-SHA256sum: c2a9b15447422561a91b337973b297433b92989dac338668dee3bbeab63ca9ee
-Description:  WebDAV server for AliyunDrive.
-
-Package: aliyundrive-webdav
 Version: 1.8.8-55
 Depends: libc
 License: MIT
