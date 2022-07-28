@@ -44,7 +44,7 @@ Architecture: arm_cortex-a7
 Installed-Size: 581969
 Filename: aria2_1.35.0-4_arm_cortex-a7.ipk
 Size: 582368
-SHA256sum: 216f6fb81058417909771329e0794c6ea9afb3940f00682b5d74250471751397
+SHA256sum: 38c362c06b8c8ef694f2a3f283eb9f6089abbf128ef6281e44b88aea31f35456
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -1299,22 +1299,6 @@ Description:  LuaSocket is the most comprehensive networking support
  TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
 
 Package: luci-app-aliyundrive-webdav
-Version: 1.8.7
-Depends: libc, aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-app-aliyundrive-webdav
-License: MIT
-Section: luci
-SourceDateEpoch: 1658677309
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 20508
-Filename: luci-app-aliyundrive-webdav_1.8.7_all.ipk
-Size: 21346
-SHA256sum: 795e973b465b2d389930b7bdce11c7000ec8f10453d099a67389d05d01dfbaa3
-Description:  LuCI Support for aliyundrive-webdav
-
-Package: luci-app-aliyundrive-webdav
 Version: 1.8.8
 Depends: libc, aliyundrive-webdav
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
@@ -1618,22 +1602,6 @@ Filename: luci-app-zerotier_1.0_all.ipk
 Size: 4351
 SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
 Description:  LuCI for Zerotier
-
-Package: luci-i18n-aliyundrive-webdav-zh-cn
-Version: 1.8.7-1
-Depends: libc, luci-app-aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-i18n-aliyundrive-webdav-zh-cn
-License: MIT
-Section: luci
-SourceDateEpoch: 1658677309
-Maintainer: messense <messense@icloud.com>
-Architecture: all
-Installed-Size: 1429
-Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.7-1_all.ipk
-Size: 2341
-SHA256sum: 6108f5b393690cb64941039b7368b9228c4a50f472b4b1818e7e959bfe103cb9
-Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.8-1
@@ -2409,10 +2377,10 @@ SourceDateEpoch: 1648206727
 CPE-ID: cpe:/a:samba:samba
 Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 8142491
+Installed-Size: 8144333
 Filename: samba4-libs_4.14.12-1_arm_cortex-a7.ipk
-Size: 8057873
-SHA256sum: 373b8cf12ddb91b5aaa3b32404b354584aa6445bfae1bfcbfb52eff94cc06046
+Size: 8058748
+SHA256sum: f64aa6ec094e375c82cedbe0cea8cedd2ed34f9bd8dcc468f32c3273600a6d88
 Description:  Samba 4.14.12 libs
 
 Package: samba4-server
@@ -2428,15 +2396,32 @@ SourceDateEpoch: 1648206727
 CPE-ID: cpe:/a:samba:samba
 Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 246987
+Installed-Size: 247042
 Filename: samba4-server_4.14.12-1_arm_cortex-a7.ipk
-Size: 247482
-SHA256sum: 72be5447369ab87e1883c45a2026d272a804e15bab4bee0694cde2d13d291a57
+Size: 247420
+SHA256sum: 60432d70897f6ec454a451f98abc7bbe62667c530c567569ddf8319e9e91094e
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  
  This provides the basic fileserver service and is the minimum needed to serve file shares.
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-1
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7
+Installed-Size: 2716
+Filename: shadowsocks-libev-config_3.3.5-1_arm_cortex-a7.ipk
+Size: 3522
+SHA256sum: 6476e1a40d3bdde51a6530c4ec438a6f553b31e9806fdcb4a646a9fa71f4e549
+Description:  shadowsocks-libev config scripts
 
 Package: shadowsocks-libev-config
 Version: 3.3.5-5
@@ -2456,6 +2441,23 @@ SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
 Description:  shadowsocks-libev config scripts
 
 Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7
+Installed-Size: 48287
+Filename: shadowsocks-libev-ss-local_3.3.5-1_arm_cortex-a7.ipk
+Size: 49154
+SHA256sum: 821f047954ab243ecd09ecbd9b0a724c5c0ac7e51672a2fb89391897eeb0dbfe
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-local
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -2473,6 +2475,23 @@ SHA256sum: 2c6dfb21b5a603c8dd4bde51a66abe7e9c9c57a3ee62b22da46757d790956a88
 Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7
+Installed-Size: 44056
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_arm_cortex-a7.ipk
+Size: 44693
+SHA256sum: 5999a7b8de74871a0d458239e3bb6d410bf0d1c3e77dfa1c027580ec5da1397e
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-redir
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -2488,6 +2507,23 @@ Filename: shadowsocks-libev-ss-redir_3.3.5-5_arm_cortex-a7.ipk
 Size: 44915
 SHA256sum: 8fc26d5b5d539775dc8e04fb808236d2476a8b336b01d30a6223e513f3017fcb
 Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7
+Installed-Size: 53222
+Filename: shadowsocks-libev-ss-server_3.3.5-1_arm_cortex-a7.ipk
+Size: 54007
+SHA256sum: 6aa04cb9ceb33b9cf0a67229331250caadfaa1d20d2a037b7180c07bba61265b
+Description:  shadowsocks-libev ss-server
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
@@ -2581,10 +2617,10 @@ Section: net
 SourceDateEpoch: 1584722017
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: arm_cortex-a7
-Installed-Size: 72491
+Installed-Size: 72490
 Filename: smartdns_1.2020.30-1_arm_cortex-a7.ipk
-Size: 73242
-SHA256sum: 53e38f6ed846d86c0c971e25b5d353f65e8bc8b379d138f95fae5a54145dbfbc
+Size: 73226
+SHA256sum: 8ea890c8ffecca433ce4afe1da6f5dacc9cf77aa1ab66e7eb3661898376f1f32
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
