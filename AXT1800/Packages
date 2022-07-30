@@ -2206,6 +2206,18 @@ Size: 4427581
 SHA256sum: 7d93d4a033a81ac4525f5b6f47c2e36acb833db7cfa34e36f53d3f19c85134ea
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
+Package: vlmcsd
+Version: svn1112-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 53566
+Filename: vlmcsd_svn1112-1_arm_cortex-a7.ipk
+Size: 54210
+SHA256sum: cf7659f54e988ae16de7217cacdbeaf78506a688bdc6d686eb984a228c02cda3
+Description:  vlmcsd is a KMS Emulator in C.
+
 Package: wget-ssl
 Version: 1.21.1-1
 Depends: libc, libpcre, zlib, libopenssl1.1, librt
