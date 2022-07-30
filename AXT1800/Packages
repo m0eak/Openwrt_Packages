@@ -10,6 +10,18 @@ Size: 3302163
 SHA256sum: 93a1e5b8f25d0d44d07959fb33f5e1cbb6fdd72030a61119c249ad43ba73c3ac
 Description:  WebDAV server for AliyunDrive.
 
+Package: aliyundrive-webdav
+Version: 1.8.9-56
+Depends: libc
+License: MIT
+Section: multimedia
+Architecture: arm_cortex-a7
+Installed-Size: 3302480
+Filename: aliyundrive-webdav_1.8.9-56_arm_cortex-a7.ipk
+Size: 3303874
+SHA256sum: 33b799fe8e543df8c0977da0cf7b9b836202355eee47cfae416a27f065d26bb4
+Description:  WebDAV server for AliyunDrive.
+
 Package: appfilter
 Version: 5.0-1
 Depends: libc, libubox20220515, libubus20210809, libuci20130104, libpthread, libjson-c5, libblobmsg-json20220515
@@ -1015,6 +1027,18 @@ Size: 21348
 SHA256sum: 254cd71e1ec817de57d7bbc35ff7dc062787ead567285575408ef65276cd8930
 Description:  LuCI Support for aliyundrive-webdav
 
+Package: luci-app-aliyundrive-webdav
+Version: 1.8.9
+Depends: libc, aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 20510
+Filename: luci-app-aliyundrive-webdav_1.8.9_all.ipk
+Size: 21346
+SHA256sum: abe701bd40c15cd9901f8f745afcc3cf2e9b8d8cdddaba9c3e416f2c897e87f8
+Description:  LuCI Support for aliyundrive-webdav
+
 Package: luci-app-appfilter
 Version: 5.0.1
 Depends: libc, appfilter
@@ -1171,6 +1195,17 @@ Size: 196371
 SHA256sum: b5e0603d710e9842760294baef53b2d0a985cf8507f0720c6539de12eba3ba4b
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
+Package: luci-app-syncdial
+Version: 2.0
+Depends: libc, kmod-macvlan, luci-app-mwan3
+Section: luci
+Architecture: all
+Installed-Size: 5206
+Filename: luci-app-syncdial_2.0_all.ipk
+Size: 6084
+SHA256sum: 22c6254681599b8ab593ace8c66b018c1908b5fc5aad200a4d22b81844c432b5
+Description:  Virtual WAN config generator
+
 Package: luci-app-turboacc
 Version: git-22.143.15400-6c728bf
 Depends: libc, pdnsd-alt, kmod-tcp-bbr, kmod-ipt-offload
@@ -1228,6 +1263,17 @@ Size: 4351
 SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
 Description:  LuCI for Zerotier
 
+Package: luci-app-zerotier
+Version: git-22.210.40991-b2fd884
+Depends: libc, zerotier
+Section: luci
+Architecture: all
+Installed-Size: 3686
+Filename: luci-app-zerotier_git-22.210.40991-b2fd884_all.ipk
+Size: 4570
+SHA256sum: efcdc1b9c154de93af879aa0f38326715fef0a2f2ac7ce49df23f35435ab4f2c
+Description:  LuCI for Zerotier
+
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.8-1
 Depends: libc, luci-app-aliyundrive-webdav
@@ -1238,6 +1284,18 @@ Installed-Size: 1430
 Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.8-1_all.ipk
 Size: 2340
 SHA256sum: 157be2d34165adb5a347368ba0d3e0320a2e4555891d9764a603df46a972d8d5
+Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-aliyundrive-webdav-zh-cn
+Version: 1.8.9-1
+Depends: libc, luci-app-aliyundrive-webdav
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1430
+Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.9-1_all.ipk
+Size: 2343
+SHA256sum: 04d211f12edc72d9f88dafdcfd6ff82ccf8df9d0e0f35202d4f74b2646a3318b
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-appfilter-zh-cn
@@ -1384,6 +1442,17 @@ Installed-Size: 793
 Filename: luci-i18n-zerotier-zh-cn_git-21.134.64880-4f62c44_all.ipk
 Size: 1675
 SHA256sum: 11c1868e146c11cf3377586de34df1cdc45a8bde7e679212d901311d13ae180c
+Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-zerotier-zh-cn
+Version: git-22.210.52718-bb159a4
+Depends: libc, luci-app-zerotier
+Section: luci
+Architecture: all
+Installed-Size: 884
+Filename: luci-i18n-zerotier-zh-cn_git-22.210.52718-bb159a4_all.ipk
+Size: 1772
+SHA256sum: c9880d600b88359cfb0a003d448f9e7a1a07e12a988ee282334aa35387398560
 Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-argon
