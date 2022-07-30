@@ -1015,6 +1015,18 @@ Description:  LuaSocket is the most comprehensive networking support
  library for the Lua language. It provides easy access to
  TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
 
+Package: luci-app-aliddns
+Version: 0.3.0
+Depends: libc, openssl-util, curl
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 3665
+Filename: luci-app-aliddns_0.3.0_all.ipk
+Size: 4538
+SHA256sum: af79223e12e10e54a8340976e281741894bf92c3d951d8ae5c81faef8a6e92f7
+Description:  LuCI Support for ALiDDNS.
+
 Package: luci-app-aliyundrive-webdav
 Version: 1.8.8
 Depends: libc, aliyundrive-webdav
@@ -1229,6 +1241,17 @@ Size: 5449054
 SHA256sum: f25cb57e6bba0d755503a0a4b4665525eec4aa3c84fe29593f236c7683cf1d03
 Description:  LuCI Support of Simple Switch to turn UUGameAcc ON/OFF
 
+Package: luci-app-vlmcsd
+Version: 1.0
+Depends: libc, vlmcsd
+Section: luci
+Architecture: all
+Installed-Size: 2349
+Filename: luci-app-vlmcsd_1.0_all.ipk
+Size: 3239
+SHA256sum: db438ad01102c36afb8c3301dc5d65f818cec7445ccc96bb042ceb247dd4bdb0
+Description:  LuCI page for KMS
+
 Package: luci-app-vssr
 Version: 1.25
 Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, xray-plugin, shadowsocksr-libev-ssr-server, hysteria
@@ -1273,6 +1296,18 @@ Filename: luci-app-zerotier_git-22.210.40991-b2fd884_all.ipk
 Size: 4570
 SHA256sum: efcdc1b9c154de93af879aa0f38326715fef0a2f2ac7ce49df23f35435ab4f2c
 Description:  LuCI for Zerotier
+
+Package: luci-i18n-aliddns-zh-cn
+Version: git-22.182.03729-2924df6
+Depends: libc, luci-app-aliddns
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 776
+Filename: luci-i18n-aliddns-zh-cn_git-22.182.03729-2924df6_all.ipk
+Size: 1718
+SHA256sum: 1c5f1170400b3ad3408e344deeeff1bb3741bef0a5b374c7a3380a8bfb2148b2
+Description:  Translation for luci-app-aliddns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.8-1
@@ -1421,6 +1456,17 @@ Filename: luci-i18n-turboacc-zh-cn_git-21.352.51446-210156f_all.ipk
 Size: 2283
 SHA256sum: ccc72e879fdd0a64f5828fe1ee06922347b4915d677e65725bb60a816b5ddf16
 Description:  Translation for luci-app-turboacc - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-vlmcsd-zh-cn
+Version: git-21.134.64880-4f62c44
+Depends: libc, luci-app-vlmcsd
+Section: luci
+Architecture: all
+Installed-Size: 777
+Filename: luci-i18n-vlmcsd-zh-cn_git-21.134.64880-4f62c44_all.ipk
+Size: 1659
+SHA256sum: 89162bdf930b5332644d37d6200f0d463bbb7caab3ca892876e7bf047e5eaff4
+Description:  Translation for luci-app-vlmcsd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-vssr-zh-cn
 Version: git-22.113.16811-e2eee1c
