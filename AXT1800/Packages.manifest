@@ -2892,8 +2892,8 @@ Maintainer: fuyumi <280604399@qq.com>
 Architecture: arm_cortex-a7
 Installed-Size: 53566
 Filename: vlmcsd_svn1112-1_arm_cortex-a7.ipk
-Size: 54210
-SHA256sum: cf7659f54e988ae16de7217cacdbeaf78506a688bdc6d686eb984a228c02cda3
+Size: 54264
+SHA256sum: 206aab89b77c2376c5d406d6145170bb4152699a4c082ae81a0b4b1658363a31
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: wget-ssl
