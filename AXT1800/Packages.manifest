@@ -1,20 +1,4 @@
 Package: aliyundrive-webdav
-Version: 1.8.8-55
-Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
-SourceName: aliyundrive-webdav
-License: MIT
-Section: multimedia
-SourceDateEpoch: 1658924773
-Maintainer: messense <messense@icloud.com>
-Architecture: arm_cortex-a7
-Installed-Size: 3300778
-Filename: aliyundrive-webdav_1.8.8-55_arm_cortex-a7.ipk
-Size: 3302163
-SHA256sum: 93a1e5b8f25d0d44d07959fb33f5e1cbb6fdd72030a61119c249ad43ba73c3ac
-Description:  WebDAV server for AliyunDrive.
-
-Package: aliyundrive-webdav
 Version: 1.8.9-56
 Depends: libc
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/aliyundrive-webdav
@@ -1332,22 +1316,6 @@ SHA256sum: af79223e12e10e54a8340976e281741894bf92c3d951d8ae5c81faef8a6e92f7
 Description:  LuCI Support for ALiDDNS.
 
 Package: luci-app-aliyundrive-webdav
-Version: 1.8.8
-Depends: libc, aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-app-aliyundrive-webdav
-License: MIT
-Section: luci
-SourceDateEpoch: 1658924773
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 20511
-Filename: luci-app-aliyundrive-webdav_1.8.8_all.ipk
-Size: 21348
-SHA256sum: 254cd71e1ec817de57d7bbc35ff7dc062787ead567285575408ef65276cd8930
-Description:  LuCI Support for aliyundrive-webdav
-
-Package: luci-app-aliyundrive-webdav
 Version: 1.8.9
 Depends: libc, aliyundrive-webdav
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
@@ -1468,21 +1436,6 @@ Filename: luci-app-diskman_git-22.193.56947-21fa616_all.ipk
 Size: 21331
 SHA256sum: b33a61e6fb382840bed6e5a26f475c73c90a25dbb87dd54c570d3a4c1782e8ce
 Description:  Disk Manager interface for LuCI
-
-Package: luci-app-openclash
-Version: 0.45.35-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-openclash
-SourceName: luci-app-openclash
-Section: opt
-SourceDateEpoch: 1658710558
-Maintainer: vernesong
-Architecture: all
-Installed-Size: 3865027
-Filename: luci-app-openclash_0.45.35-beta_all.ipk
-Size: 3848824
-SHA256sum: 6eb48b984922e02c31838091b237ff2cfefd8c2f1f862167d436cbbcb7dfb1e1
-Description:  A LuCI support for clash
 
 Package: luci-app-openclash
 Version: 0.45.41-beta
@@ -1728,22 +1681,6 @@ Filename: luci-i18n-aliddns-zh-cn_git-22.182.03729-2924df6_all.ipk
 Size: 1718
 SHA256sum: 1c5f1170400b3ad3408e344deeeff1bb3741bef0a5b374c7a3380a8bfb2148b2
 Description:  Translation for luci-app-aliddns - 简体中文 (Chinese Simplified)
-
-Package: luci-i18n-aliyundrive-webdav-zh-cn
-Version: 1.8.8-1
-Depends: libc, luci-app-aliyundrive-webdav
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliyundrive-webdav
-SourceName: luci-i18n-aliyundrive-webdav-zh-cn
-License: MIT
-Section: luci
-SourceDateEpoch: 1658924773
-Maintainer: messense <messense@icloud.com>
-Architecture: all
-Installed-Size: 1430
-Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.8-1_all.ipk
-Size: 2340
-SHA256sum: 157be2d34165adb5a347368ba0d3e0320a2e4555891d9764a603df46a972d8d5
-Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.8.9-1
@@ -2988,24 +2925,6 @@ Description:  Web Services for Devices or Web Services on Devices (WSD),
  
  This daemon advertises and responds to probe requests from Windows clients looking for file shares.
  It also implements LLMNR multicast name lookup services.
-
-Package: xray-core
-Version: 1.5.4-1
-Depends: libc, ca-bundle
-Source: feeds/packages/net/xray-core
-SourceName: xray-core
-License: MPL-2.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1647876847
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Architecture: arm_cortex-a7
-Installed-Size: 6355185
-Filename: xray-core_1.5.4-1_arm_cortex-a7.ipk
-Size: 6347873
-SHA256sum: bc52973501e0168bb88dab451f992ef923865212e301f2a2e08434598092d85b
-Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
- It secures your network connections and thus protects your privacy.
 
 Package: xray-core
 Version: 1.5.9-34
