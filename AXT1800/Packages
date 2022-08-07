@@ -28,10 +28,10 @@ License: GPLv2
 Section: net
 CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
 Architecture: arm_cortex-a7
-Installed-Size: 581969
+Installed-Size: 581964
 Filename: aria2_1.35.0-4_arm_cortex-a7.ipk
-Size: 582368
-SHA256sum: 38c362c06b8c8ef694f2a3f283eb9f6089abbf128ef6281e44b88aea31f35456
+Size: 582363
+SHA256sum: 9b80a92fc584559f5d537d6ae6ade6bbaeddb0bc8d38428a44a72e22210f8fd4
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -200,6 +200,18 @@ Filename: boost-system_1.75.0-1_arm_cortex-a7.ipk
 Size: 1647
 SHA256sum: c17fe54957f758a21ab38e2471bb7f5134d22aa9bf8fddf1e345c8015536cfab
 Description:  This package contains the Boost system library.
+
+Package: cdnspeedtest
+Version: 2.0.3-15
+Depends: libc, ca-bundle
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 2158417
+Filename: cdnspeedtest_2.0.3-15_arm_cortex-a7.ipk
+Size: 2155980
+SHA256sum: 411a9d0a403a4732ecd62664a4f7a6428cf39b13b8f55c4095c19c15772422f9
+Description:  Getting the fastest ips to your network of CDN
 
 Package: cgi-io
 Version: 2021-09-08-98cef9dd-20
@@ -374,8 +386,8 @@ Section: libs
 Architecture: arm_cortex-a7
 Installed-Size: 167773
 Filename: getdns_1.7.0-1_arm_cortex-a7.ipk
-Size: 167665
-SHA256sum: da7f4dd13b191ed50b2b5b278565c8bbd2958e4b6e109dd7a839f9bc6cd413b3
+Size: 167659
+SHA256sum: 2faf57db24397cc437e735fdd9d7f339fe414e3068509b60b8700909c1a94bc7
 Description:  This package contains the getdns library (libgetdns).
  This package also contains the "getdns_query" command line wrapper for getdns exposing the features of this implementation (both in the official API and the additional API functions).
 
@@ -387,8 +399,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 5712517
 Filename: hysteria_1.1.0-29_arm_cortex-a7.ipk
-Size: 5705893
-SHA256sum: 7e9863fd3501348df92fb025398e1f478f90f25836d14bb449ca1c079d479254
+Size: 5705982
+SHA256sum: 25b3e5ccb5e1b72bdd15e67c551ef6bd8a29db5b0f22fabae0184750d6831f29
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -1082,6 +1094,18 @@ Size: 3857
 SHA256sum: a621d5f9aebe3aae6ba9481c5ea74247f4c5cc160b3507abe6845da084eab2ff
 Description:  LuCI support for BaiduPCS-Go
 
+Package: luci-app-cloudflarespeedtest
+Version: 1.4.7
+Depends: libc, cdnspeedtest, openssl-util, curl
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 7971
+Filename: luci-app-cloudflarespeedtest_1.4.7_all.ipk
+Size: 8891
+SHA256sum: 099500df55279a18a0400565fa851714bcf235c811b360abc73d6cad94535bb0
+Description:  LuCI support for Cloudflares Speed Test
+
 Package: luci-app-cpufreq
 Version: 1
 Depends: libc
@@ -1114,6 +1138,17 @@ Installed-Size: 3868947
 Filename: luci-app-openclash_0.45.41-beta_all.ipk
 Size: 3852484
 SHA256sum: 96ba5b8940691e2f537ae11ac05d74c406d51ca39075d6aec607b96c92d29e0b
+Description:  A LuCI support for clash
+
+Package: luci-app-openclash
+Version: 0.45.47-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 3908812
+Filename: luci-app-openclash_0.45.47-beta_all.ipk
+Size: 3892419
+SHA256sum: fca7df4a0f8970d98fac2e1c9643b4b4a13a66dcc87761ca5712dee9d45229f9
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -1340,6 +1375,18 @@ Filename: luci-i18n-autoreboot-zh-cn_git-21.324.28924-4b5ef99_all.ipk
 Size: 1405
 SHA256sum: f4bde4591f8a7d024d6fd483c2dc5aef82fe1942f3385b239b8db48f38338f07
 Description:  Translation for luci-app-autoreboot - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-cloudflarespeedtest-zh-cn
+Version: git-22.125.56524-0729790
+Depends: libc, luci-app-cloudflarespeedtest
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 1832
+Filename: luci-i18n-cloudflarespeedtest-zh-cn_git-22.125.56524-0729790_all.ipk
+Size: 2776
+SHA256sum: f1f7fe0128f1ff6c467bcb0b863da15291024bf38f9174b9761980b15fa7b8d4
+Description:  Translation for luci-app-cloudflarespeedtest - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-cpufreq-zh-cn
 Version: git-21.134.64880-4f62c44
@@ -1697,10 +1744,10 @@ License: BSD-2-Clause
 Section: lang
 CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
-Installed-Size: 31738
+Installed-Size: 31737
 Filename: ruby-bigdecimal_3.0.3-1_arm_cortex-a7.ipk
-Size: 32613
-SHA256sum: fa45f31b017a68d902d0861de3f14fb60a5b58575288d869bdc641027662a4cb
+Size: 32611
+SHA256sum: 676983c4671cb0372585e9962a00edc1c2c9a0a653130c66bdea6eb1473d7499
 Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
  
  Provides:
@@ -1720,8 +1767,8 @@ CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
 Installed-Size: 60697
 Filename: ruby-date_3.0.3-1_arm_cortex-a7.ipk
-Size: 61561
-SHA256sum: 3de7d30dfb5892443065999201e4cdad32932f8e16a1caf4352baf31f2da2c54
+Size: 61565
+SHA256sum: f1e5e374c038e18e607f22306b21f99fe50f9e9b4191564a9db2b87913d48a02
 Description:  This package contains the ruby Comparable module for handling dates.
  
  Provides:
@@ -1740,8 +1787,8 @@ CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
 Installed-Size: 7431
 Filename: ruby-dbm_3.0.3-1_arm_cortex-a7.ipk
-Size: 8367
-SHA256sum: b2a8e35a089881a533beef5d4c67ead142287e58ebdd2887ec0306bca412ada4
+Size: 8368
+SHA256sum: fb5cf75355d4973bd9ddf4372edd6343f7c4b88cd45ac610bf04ef3efe3c30c6
 Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
  This package provides dbm.so file.
  
@@ -1760,8 +1807,8 @@ CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
 Installed-Size: 25310
 Filename: ruby-digest_3.0.3-1_arm_cortex-a7.ipk
-Size: 26145
-SHA256sum: 4d8fd4fb7088438b23ec0273c60b3788eb66b2d5ab5104b7d3e33e3a6c44c145
+Size: 26147
+SHA256sum: a92300b6377588e07aabfbc119dc8c5d306d05ddd4ab1dc067412f8714918c2b
 Description:  Provides digest* files. Can be configured to use OpenSSL or
  bundled hash functions.
  
@@ -1802,10 +1849,10 @@ License: BSD-2-Clause
 Section: lang
 CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
-Installed-Size: 3786
+Installed-Size: 3787
 Filename: ruby-forwardable_3.0.3-1_arm_cortex-a7.ipk
-Size: 4670
-SHA256sum: 208469bd8533293f63874572138c2f100185b868f16483980f9f0bcc47d578ee
+Size: 4669
+SHA256sum: 170270e6204127662d825f509cbf769df56b543777cd2239bf044959590c2934
 Description:  This package contains the ruby delegation of methods to a object.
  
  Provides:
@@ -1822,10 +1869,10 @@ License: BSD-2-Clause
 Section: lang
 CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
-Installed-Size: 5464
+Installed-Size: 5465
 Filename: ruby-pstore_3.0.3-1_arm_cortex-a7.ipk
-Size: 6336
-SHA256sum: 81b0b750a3d50a4fccf6e270fcee523ef6a82bea5d13bda25d84dfef8c7b7fdc
+Size: 6337
+SHA256sum: b5111536cef72f47cfb96a69129590c3e85731ce193a42ef314ce109bbaac53e
 Description:  This package contains the ruby file based persistence.
  
  Provides:
@@ -1846,7 +1893,7 @@ Architecture: arm_cortex-a7
 Installed-Size: 32323
 Filename: ruby-psych_3.0.3-1_arm_cortex-a7.ipk
 Size: 33298
-SHA256sum: d9d418b0227f5a6eda7c8731d061a16793832ada3d0381e534c40a5f036cb4db
+SHA256sum: 8b82929eb8d9b6ded2963f9e772549f7e209f0e29d62604b329d677891148bec
 Description:  This package contains the ruby YAML parser and emitter.
  
  Provides:
@@ -1864,10 +1911,10 @@ License: BSD-2-Clause
 Section: lang
 CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
-Installed-Size: 10658
+Installed-Size: 10657
 Filename: ruby-stringio_3.0.3-1_arm_cortex-a7.ipk
-Size: 11528
-SHA256sum: 92e9716d3662f5294b521583c5f61fcb8b0233f889167ba09d6b3812f4adc2db
+Size: 11525
+SHA256sum: 70419254d75cd87cb360bd86462fcb5a31bc49c9cfa4492470ab1dbb245d2c17
 Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
  
  Provides:
@@ -1885,8 +1932,8 @@ CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
 Installed-Size: 7583
 Filename: ruby-strscan_3.0.3-1_arm_cortex-a7.ipk
-Size: 8487
-SHA256sum: 573989acca9b491fe7ca4456cdf53e495047fd30e2c2c1df9da6c631905b9070
+Size: 8489
+SHA256sum: 1013a9b4e0cad0d06c356165f076462c3f7d5b70470b88f939061d7bf559dcf9
 Description:  This package contains the ruby Lexical scanning operations on a String.
  
  Provides:
@@ -1902,10 +1949,10 @@ License: BSD-2-Clause
 Section: lang
 CPE-ID: cpe:/a:ruby-lang:ruby
 Architecture: arm_cortex-a7
-Installed-Size: 4352
+Installed-Size: 4355
 Filename: ruby-yaml_3.0.3-1_arm_cortex-a7.ipk
-Size: 5214
-SHA256sum: 0ad59e0f8e7140387f21785ef20f28dfe05b4dc5e10815f40ed947da524aa2a7
+Size: 5218
+SHA256sum: 75a9a616b586bb88948546a27e2a13742ce637e43642739f7de066e619a22410
 Description:  This package contains the ruby YAML toolkit.
  
  Provides:
@@ -1948,6 +1995,18 @@ Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbc
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: shadowsocks-libev-config
+Version: 3.3.5-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 2716
+Filename: shadowsocks-libev-config_3.3.5-1_arm_cortex-a7.ipk
+Size: 3522
+SHA256sum: 6476e1a40d3bdde51a6530c4ec438a6f553b31e9806fdcb4a646a9fa71f4e549
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-config
 Version: 3.3.5-5
 Depends: libc
 License: GPL-3.0-or-later
@@ -1958,6 +2017,18 @@ Filename: shadowsocks-libev-config_3.3.5-5_arm_cortex-a7.ipk
 Size: 3679
 SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
 Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 48287
+Filename: shadowsocks-libev-ss-local_3.3.5-1_arm_cortex-a7.ipk
+Size: 49154
+SHA256sum: 821f047954ab243ecd09ecbd9b0a724c5c0ac7e51672a2fb89391897eeb0dbfe
+Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-local
 Version: 3.3.5-5
@@ -1972,6 +2043,18 @@ SHA256sum: 2c6dfb21b5a603c8dd4bde51a66abe7e9c9c57a3ee62b22da46757d790956a88
 Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 44056
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_arm_cortex-a7.ipk
+Size: 44693
+SHA256sum: 5999a7b8de74871a0d458239e3bb6d410bf0d1c3e77dfa1c027580ec5da1397e
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-redir
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
 License: GPL-3.0-or-later
@@ -1983,16 +2066,28 @@ Size: 44915
 SHA256sum: 8fc26d5b5d539775dc8e04fb808236d2476a8b336b01d30a6223e513f3017fcb
 Description:  shadowsocks-libev ss-redir
 
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 53222
+Filename: shadowsocks-libev-ss-server_3.3.5-1_arm_cortex-a7.ipk
+Size: 54007
+SHA256sum: 6aa04cb9ceb33b9cf0a67229331250caadfaa1d20d2a037b7180c07bba61265b
+Description:  shadowsocks-libev ss-server
+
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
 Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a7
-Installed-Size: 2235
+Installed-Size: 2239
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7.ipk
-Size: 3025
-SHA256sum: cbac2b74f70edafd0571d89d083b0f3ad11d3ca89a221abca830699bb8e143a2
+Size: 3038
+SHA256sum: 76b301e47a02045071751621f76b225c7b63caf857142bda277a05eeb92e6d5a
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
@@ -2001,10 +2096,10 @@ Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zl
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a7
-Installed-Size: 58202
+Installed-Size: 58207
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7.ipk
-Size: 58926
-SHA256sum: 956748dc0d01c3ceeeb0c980787a4730e2fd247b1c9c18970b9e62e677e483dc
+Size: 58935
+SHA256sum: bb640e290bf1a6bf2f00041307f517cbd8f8e0fe9efb824da73f9383313197e8
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -2015,8 +2110,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 53061
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7.ipk
-Size: 53803
-SHA256sum: 2de11d031854202adc3fb872d16a09cafc4aa97cdf3585ac4652525c38bdc5eb
+Size: 53807
+SHA256sum: 7b723a92213dedf5dc5cf1bb7ca4ee7fed2fbc657e1e0ce771f567df9d5bac13
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -2027,8 +2122,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 62923
 Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7.ipk
-Size: 63714
-SHA256sum: 6a5d954a370f98ea5fadbf15c026a4db5048ebe0b3737aba18d912229467e2a6
+Size: 63723
+SHA256sum: 3e97a323dfa56e0833b546bffb4245b9504f541245cfbfc4496daba4be820613
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs
@@ -2049,10 +2144,10 @@ Depends: libc, libpthread, libopenssl1.1
 License: GPL-3.0-or-later
 Section: net
 Architecture: arm_cortex-a7
-Installed-Size: 72490
+Installed-Size: 72489
 Filename: smartdns_1.2020.30-1_arm_cortex-a7.ipk
-Size: 73237
-SHA256sum: 9cf2256aebbc1f676423c94c68c0c4f5a888312f778a7b811bf85987db9b076a
+Size: 73235
+SHA256sum: 31334a835f4baf38dce500a3b02ff8dc6a229b35fe5db8c618122edc0c76b194
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
@@ -2177,8 +2272,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 4431411
 Filename: v2ray-plugin_5.0.7-26_arm_cortex-a7.ipk
-Size: 4427581
-SHA256sum: 7d93d4a033a81ac4525f5b6f47c2e36acb833db7cfa34e36f53d3f19c85134ea
+Size: 4427642
+SHA256sum: fa81ef119efdace7645a04aaef3890ae35db06d1143f6eb4035161347cf565d8
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: vlmcsd
@@ -2189,8 +2284,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 53566
 Filename: vlmcsd_svn1112-1_arm_cortex-a7.ipk
-Size: 54264
-SHA256sum: 206aab89b77c2376c5d406d6145170bb4152699a4c082ae81a0b4b1658363a31
+Size: 54211
+SHA256sum: 2d5743972a06cc644becde4292c06078b54c12f336cbe509ee629d6fbc9b921a
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: wget-ssl
@@ -2244,6 +2339,19 @@ Description:  Web Services for Devices or Web Services on Devices (WSD),
  It also implements LLMNR multicast name lookup services.
 
 Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 6355186
+Filename: xray-core_1.5.4-1_arm_cortex-a7.ipk
+Size: 6347832
+SHA256sum: d65b9ae683cc2ea50aecf0b8f52c71c45510b8dda6059e08ac978d53393c7a84
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-core
 Version: 1.5.9-34
 Depends: libc, ca-bundle
 License: MPL-2.0
@@ -2264,8 +2372,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 5139643
 Filename: xray-plugin_1.5.9-28_arm_cortex-a7.ipk
-Size: 5133430
-SHA256sum: 68002a3591c9430a477a8fad751de4f6d9271abc5df00f4c3e7721b6904d6922
+Size: 5133459
+SHA256sum: 24b0f577a077aee8747fd1a5fe1c72a0e0280cac8ff93c6497d5655ebdad86e3
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
 Package: zerotier
