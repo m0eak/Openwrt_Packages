@@ -1470,21 +1470,6 @@ SHA256sum: b33a61e6fb382840bed6e5a26f475c73c90a25dbb87dd54c570d3a4c1782e8ce
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-openclash
-Version: 0.45.41-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-openclash
-SourceName: luci-app-openclash
-Section: opt
-SourceDateEpoch: 1658936586
-Maintainer: vernesong
-Architecture: all
-Installed-Size: 3868947
-Filename: luci-app-openclash_0.45.41-beta_all.ipk
-Size: 3852484
-SHA256sum: 96ba5b8940691e2f537ae11ac05d74c406d51ca39075d6aec607b96c92d29e0b
-Description:  A LuCI support for clash
-
-Package: luci-app-openclash
 Version: 0.45.47-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-openclash
@@ -2591,23 +2576,6 @@ Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbc
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: shadowsocks-libev-config
-Version: 3.3.5-1
-Depends: libc
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-config
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 2716
-Filename: shadowsocks-libev-config_3.3.5-1_arm_cortex-a7.ipk
-Size: 3522
-SHA256sum: 6476e1a40d3bdde51a6530c4ec438a6f553b31e9806fdcb4a646a9fa71f4e549
-Description:  shadowsocks-libev config scripts
-
-Package: shadowsocks-libev-config
 Version: 3.3.5-5
 Depends: libc
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -2623,23 +2591,6 @@ Filename: shadowsocks-libev-config_3.3.5-5_arm_cortex-a7.ipk
 Size: 3679
 SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
 Description:  shadowsocks-libev config scripts
-
-Package: shadowsocks-libev-ss-local
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-ss-local
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 48287
-Filename: shadowsocks-libev-ss-local_3.3.5-1_arm_cortex-a7.ipk
-Size: 49154
-SHA256sum: 821f047954ab243ecd09ecbd9b0a724c5c0ac7e51672a2fb89391897eeb0dbfe
-Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-local
 Version: 3.3.5-5
@@ -2659,23 +2610,6 @@ SHA256sum: 2c6dfb21b5a603c8dd4bde51a66abe7e9c9c57a3ee62b22da46757d790956a88
 Description:  shadowsocks-libev ss-local
 
 Package: shadowsocks-libev-ss-redir
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-ss-redir
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 44056
-Filename: shadowsocks-libev-ss-redir_3.3.5-1_arm_cortex-a7.ipk
-Size: 44693
-SHA256sum: 5999a7b8de74871a0d458239e3bb6d410bf0d1c3e77dfa1c027580ec5da1397e
-Description:  shadowsocks-libev ss-redir
-
-Package: shadowsocks-libev-ss-redir
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -2691,23 +2625,6 @@ Filename: shadowsocks-libev-ss-redir_3.3.5-5_arm_cortex-a7.ipk
 Size: 44915
 SHA256sum: 8fc26d5b5d539775dc8e04fb808236d2476a8b336b01d30a6223e513f3017fcb
 Description:  shadowsocks-libev ss-redir
-
-Package: shadowsocks-libev-ss-server
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-ss-server
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 53222
-Filename: shadowsocks-libev-ss-server_3.3.5-1_arm_cortex-a7.ipk
-Size: 54007
-SHA256sum: 6aa04cb9ceb33b9cf0a67229331250caadfaa1d20d2a037b7180c07bba61265b
-Description:  shadowsocks-libev ss-server
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
@@ -3056,24 +2973,6 @@ Description:  Web Services for Devices or Web Services on Devices (WSD),
  
  This daemon advertises and responds to probe requests from Windows clients looking for file shares.
  It also implements LLMNR multicast name lookup services.
-
-Package: xray-core
-Version: 1.5.4-1
-Depends: libc, ca-bundle
-Source: feeds/packages/net/xray-core
-SourceName: xray-core
-License: MPL-2.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1647876847
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Architecture: arm_cortex-a7
-Installed-Size: 6355186
-Filename: xray-core_1.5.4-1_arm_cortex-a7.ipk
-Size: 6347832
-SHA256sum: d65b9ae683cc2ea50aecf0b8f52c71c45510b8dda6059e08ac978d53393c7a84
-Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
- It secures your network connections and thus protects your privacy.
 
 Package: xray-core
 Version: 1.5.9-34
