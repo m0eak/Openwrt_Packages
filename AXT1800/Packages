@@ -1,4 +1,16 @@
 Package: aliyundrive-webdav
+Version: 1.8.9-21
+Depends: libc
+License: MIT
+Section: multimedia
+Architecture: arm_cortex-a7
+Installed-Size: 3302481
+Filename: aliyundrive-webdav_1.8.9-21_arm_cortex-a7.ipk
+Size: 3303854
+SHA256sum: e5fb57c52c16fa27aa4cdb6505e7e8a684cf0cc0e7dd7499b5373b80d2443010
+Description:  WebDAV server for AliyunDrive.
+
+Package: aliyundrive-webdav
 Version: 1.8.9-56
 Depends: libc
 License: MIT
@@ -414,8 +426,8 @@ Section: net
 Architecture: arm_cortex-a7
 Installed-Size: 28480
 Filename: ipt2socks_1.1.3-3_arm_cortex-a7.ipk
-Size: 29205
-SHA256sum: 9469ac67bd5d0d6e6a9f0688d28883e2b7402fa3c22e0c7fc0ddaab2fec5b09c
+Size: 29193
+SHA256sum: 6f3c4018ccf04b47eaf36ecd47adec259612e1ec9409900a07cd9c3125072de3
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: iputils-arping
@@ -1021,10 +1033,10 @@ Depends: libc, openssl-util, curl
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 3665
+Installed-Size: 3649
 Filename: luci-app-aliddns_0.3.0_all.ipk
-Size: 4538
-SHA256sum: af79223e12e10e54a8340976e281741894bf92c3d951d8ae5c81faef8a6e92f7
+Size: 4501
+SHA256sum: ef2d12dd586a843139b3df8e4d70589cb030c809b84899a63886cf319d6bb998
 Description:  LuCI Support for ALiDDNS.
 
 Package: luci-app-aliyundrive-webdav
@@ -1033,10 +1045,10 @@ Depends: libc, aliyundrive-webdav
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 20510
+Installed-Size: 20498
 Filename: luci-app-aliyundrive-webdav_1.8.9_all.ipk
-Size: 21346
-SHA256sum: abe701bd40c15cd9901f8f745afcc3cf2e9b8d8cdddaba9c3e416f2c897e87f8
+Size: 21325
+SHA256sum: 471871414fdb054e0bf02c2a970cfa1214c337f143cbd4df5f32808c2c14db04
 Description:  LuCI Support for aliyundrive-webdav
 
 Package: luci-app-appfilter
@@ -1111,10 +1123,10 @@ Version: 1
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 2507
+Installed-Size: 1879
 Filename: luci-app-cpufreq_1_all.ipk
-Size: 3408
-SHA256sum: 28972423757412873a0746aab233ba10d05b8dcdf81e912da5800a8e1edc10aa
+Size: 2702
+SHA256sum: bb5c3862f7090c26c3554a432e6b992bbc8ba4d0386d69b927797de63048f45d
 Description:  LuCI for CPU Freq Setting
 
 Package: luci-app-diskman
@@ -1129,15 +1141,27 @@ Size: 21331
 SHA256sum: b33a61e6fb382840bed6e5a26f475c73c90a25dbb87dd54c570d3a4c1782e8ce
 Description:  Disk Manager interface for LuCI
 
+Package: luci-app-diskman
+Version: git-22.194.03122-b202c59
+Depends: libc, blkid, e2fsprogs, parted, smartmontools, lsblk
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 20460
+Filename: luci-app-diskman_git-22.194.03122-b202c59_all.ipk
+Size: 21300
+SHA256sum: a5e26c3b2f12315d847e86007a236d2104902523040f47ceb94d01e47ef4af2b
+Description:  Disk Manager interface for LuCI
+
 Package: luci-app-openclash
 Version: 0.45.47-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 3908812
+Installed-Size: 3908774
 Filename: luci-app-openclash_0.45.47-beta_all.ipk
-Size: 3892419
-SHA256sum: fca7df4a0f8970d98fac2e1c9643b4b4a13a66dcc87761ca5712dee9d45229f9
+Size: 3892304
+SHA256sum: a825ff8179987211bdcd45c79081ef27edaf21cc64b4a1c57dbaf22bce8ddfa9
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
@@ -1167,10 +1191,10 @@ Version: 1.0
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 425
+Installed-Size: 422
 Filename: luci-app-ramfree_1.0_all.ipk
-Size: 1264
-SHA256sum: cbcaae332e0226eeac51a4a6f08c45bfb47d7508f7a148629d90d6d7aad1c7ab
+Size: 1246
+SHA256sum: b60b1925a074dc5046a46df9370aa7d41fdf660be302e8bd68dff3ecaf51a99d
 Description:  Add Release RAM Button
 
 Package: luci-app-serverchan
@@ -1178,10 +1202,10 @@ Version: 2.01.4
 Depends: libc, iputils-arping, curl, jq
 Section: luci
 Architecture: all
-Installed-Size: 52983
+Installed-Size: 52970
 Filename: luci-app-serverchan_2.01.4_all.ipk
-Size: 54000
-SHA256sum: 7ce69f33e2bfeed9f656fdbfbe870b4f8543fd85d726ec5b663afe4ca74bae2a
+Size: 53972
+SHA256sum: 30f8cd0cdefc2da3f0da51bd69f5d362ce4b37b8f706f2b36d10977fb250db2a
 Description:  LuCI support for serverchan
 
 Package: luci-app-smartdns
@@ -1303,10 +1327,10 @@ Depends: libc, jshn, curl, openssl-util, luci-compat
 License: GPLv2
 Section: luci
 Architecture: all
-Installed-Size: 10684
+Installed-Size: 10667
 Filename: luci-app-xlnetacc_1.1-1_all.ipk
-Size: 11503
-SHA256sum: 3ee62439a2d80dba85dfd372ad04e09a1e9d6cc8029a1bb0e34b4b9db422b03f
+Size: 11472
+SHA256sum: 8dc0bb35faae4815b6e3fa1268b740c5f4afe58960b9a54881a8bee7157d428a
 Description:  LuCI Support for XLNetAcc.
 
 Package: luci-app-zerotier
@@ -1314,10 +1338,10 @@ Version: 1.0
 Depends: libc, zerotier
 Section: luci
 Architecture: all
-Installed-Size: 3489
+Installed-Size: 3313
 Filename: luci-app-zerotier_1.0_all.ipk
-Size: 4351
-SHA256sum: 0036f85ed7a11b78a1c5e7a1c51de5c5ed602adca880f4c2f42fcb39ccfc00c9
+Size: 4118
+SHA256sum: 1e728876c41f5aa8e6918f80f9af1ef19654f778e203868d2081fdee481183d5
 Description:  LuCI for Zerotier
 
 Package: luci-app-zerotier
@@ -1330,6 +1354,18 @@ Filename: luci-app-zerotier_git-22.210.40991-b2fd884_all.ipk
 Size: 4570
 SHA256sum: efcdc1b9c154de93af879aa0f38326715fef0a2f2ac7ce49df23f35435ab4f2c
 Description:  LuCI for Zerotier
+
+Package: luci-i18n-aliddns-zh-cn
+Version: git-22.115.58419-940051f
+Depends: libc, luci-app-aliddns
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 775
+Filename: luci-i18n-aliddns-zh-cn_git-22.115.58419-940051f_all.ipk
+Size: 1700
+SHA256sum: 4b2ddccc7b1855bf1323551dc8c4ff2705a96648f4417c1d02075b4f61c412f7
+Description:  Translation for luci-app-aliddns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliddns-zh-cn
 Version: git-22.182.03729-2924df6
@@ -1349,10 +1385,10 @@ Depends: libc, luci-app-aliyundrive-webdav
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1430
+Installed-Size: 1433
 Filename: luci-i18n-aliyundrive-webdav-zh-cn_1.8.9-1_all.ipk
-Size: 2343
-SHA256sum: 04d211f12edc72d9f88dafdcfd6ff82ccf8df9d0e0f35202d4f74b2646a3318b
+Size: 2334
+SHA256sum: 0dfeeec9d10f988881ca2ab521bcb56c17ea8019d1b7cbe693d41f1b49e31ee8
 Description:  Translation for luci-app-aliyundrive-webdav - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-appfilter-zh-cn
@@ -1434,6 +1470,18 @@ Size: 2823
 SHA256sum: 5441ab0e75cd809f79b8cee3c61640eb226a0d277a4efda2935c561af09c075b
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
+Package: luci-i18n-diskman-zh-cn
+Version: git-22.101.30176-76f3dcb
+Depends: libc, luci-app-diskman
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 1899
+Filename: luci-i18n-diskman-zh-cn_git-22.101.30176-76f3dcb_all.ipk
+Size: 2807
+SHA256sum: 2b0bb8f254fd5762bf1cd9a6805cb62afdddd589b05b639ef103350a64dfe343
+Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+
 Package: luci-i18n-passwall2-zh-cn
 Version: git-22.182.44403-d92bdee
 Depends: libc, luci-app-passwall2
@@ -1452,8 +1500,8 @@ Section: luci
 Architecture: all
 Installed-Size: 421
 Filename: luci-i18n-ramfree-zh-cn_git-21.267.56247-16a922f_all.ipk
-Size: 1281
-SHA256sum: 1ce0121a7783f68d15caca5cabee2b85ffee3676ee97809fdfc7f62350b42d9d
+Size: 1270
+SHA256sum: 049d7b848a9b73ec91915071070b768ec4c8077077f7d141d31ae98e07dd1eb6
 Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-smartdns-zh-cn
