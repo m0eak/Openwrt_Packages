@@ -1499,6 +1499,21 @@ Size: 184996
 SHA256sum: 07c1005f46fb823a1ab610dae949d5c2a24fc13fdfa80b209d157233b85f06ac
 Description:  LuCI support for PassWall 2
 
+Package: luci-app-qbittorrent
+Version: 1.0
+Depends: libc, qBittorrent-static
+Source: feeds/NueXini_Packages/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+SourceDateEpoch: 1654813520
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7453
+Filename: luci-app-qbittorrent_1.0_all.ipk
+Size: 8323
+SHA256sum: 57c6281a8d82bc7585c4c6b9df1a429a81a1eb0956bf3acc542e0f0b34a29586
+Description:  LuCI support for qBittorrent
+
 Package: luci-app-ramfree
 Version: 1.0
 Depends: libc
@@ -1590,6 +1605,37 @@ Filename: luci-app-turboacc_git-22.143.15400-6c728bf_all.ipk
 Size: 7462
 SHA256sum: e1838808bd485a202adb8534250f75139731e0a023b19b0ef067077b94a1a4ea
 Description:  LuCI support for Flow Offload / Shortcut-FE
+
+Package: luci-app-unblockmusic
+Version: 2.3.5
+Depends: libc, dnsmasq-full, ipset, uclient-fetch, UnblockNeteaseMusic-Go
+Source: feeds/NueXini_Packages/luci-app-unblockmusic
+SourceName: luci-app-unblockmusic
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1655936633
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7245
+Filename: luci-app-unblockmusic_2.3.5_all.ipk
+Size: 8194
+SHA256sum: 521f15135ea088396e12fb3f6c60c5d11dd4c494efa39a06cd38bc9314c68218
+Description:  LuCI support for Unblock NeteaseCloudMusic
+
+Package: luci-app-unblockneteasemusic-go
+Version: 1.14
+Depends: libc, bash, busybox, unzip, coreutils, coreutils-nohup, curl, dnsmasq-full, ipset, luci-compat, openssl-util, UnblockNeteaseMusic-Go
+Source: feeds/NueXini_Packages/luci-app-unblockneteasemusic-go
+SourceName: luci-app-unblockneteasemusic-go
+Section: luci
+SourceDateEpoch: 1649781243
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7297
+Filename: luci-app-unblockneteasemusic-go_1.14_all.ipk
+Size: 8218
+SHA256sum: 6ce64ce58bb9c930503adc888e95ab152d8398f904b947685865fbf84c0713da
+Description:  LuCI support for UnblockNeteaseMusic-Go
 
 Package: luci-app-UUGameAcc
 Version: 20210806-2.13.4
@@ -2231,6 +2277,24 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
 
+Package: qBittorrent-static
+Version: 4.4.2_v2.0.6-1
+Depends: libc
+Source: feeds/kenzok8_small_packages/qBittorrent-static
+SourceName: qBittorrent-static
+Section: net
+SourceDateEpoch: 1650814929
+Architecture: arm_cortex-a7
+Installed-Size: 17335785
+Filename: qBittorrent-static_4.4.2_v2.0.6-1_arm_cortex-a7.ipk
+Size: 17269817
+SHA256sum: 2aea800e1dc589f2baa27cf4fa733b3bee7eed823f0dbc3ceb120241ef5c7e8d
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
 Package: ruby
 Version: 3.0.3-1
 Depends: libc, libruby3.0
@@ -2798,6 +2862,22 @@ Filename: trojan_1.16.0-2_arm_cortex-a7.ipk
 Size: 252518
 SHA256sum: b627609427d62363dbb0ac37394e606814bc63e072f883ca4fef30027589656b
 Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: UnblockNeteaseMusic-Go
+Version: 0.2.13-8
+Depends: libc
+Source: feeds/kenzok8_small_packages/UnblockNeteaseMusic-Go
+SourceName: UnblockNeteaseMusic-Go
+License: GPL-3.0
+Section: multimedia
+SourceDateEpoch: 1657242020
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7
+Installed-Size: 2268164
+Filename: UnblockNeteaseMusic-Go_0.2.13-8_arm_cortex-a7.ipk
+Size: 2265008
+SHA256sum: 9af70b01affc8427fab23cd8d60f264a64d8f9541b7a0f82c83770cfb34c7400
+Description:  Revive Netease Cloud Music (Golang)
 
 Package: unzip
 Version: 6.0-8
