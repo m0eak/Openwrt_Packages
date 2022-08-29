@@ -26,6 +26,32 @@ Size: 4472
 SHA256sum: 92af87bef7c753d60374cc219a0e1a288d416838014f70aacecbaec595ebac73
 Description:  LuCI support for alist
 
+Package: luci-app-qbittorrent
+Version: 1.0-23
+Depends: libc, qBittorrent-static
+Source: feeds/luci/applications/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 7467
+Filename: luci-app-qbittorrent_1.0-23_all.ipk
+Size: 8278
+SHA256sum: 5848842e18efc2042c15241cba252e025a5f89012c9ceb9bc4078b3731ed5788
+Description:  LuCI support for qBittorrent
+
+Package: luci-app-qbittorrent-simple
+Version: 1.0.0-3
+Depends: libc, qbittorrent
+Source: package/lean/luci-app-qbittorrent-simple
+SourceName: luci-app-qbittorrent-simple
+Section: luci
+Architecture: all
+Installed-Size: 2984
+Filename: luci-app-qbittorrent-simple_1.0.0-3_all.ipk
+Size: 3758
+SHA256sum: 01f2ff53be58ffc10480e2c1060f63b98a514d6c6ee33ffb0518609f60c20bef
+Description:  LuCI support for qBittorrent
+
 Package: luci-i18n-alist-zh-cn
 Version: 1.0.4-1
 Depends: libc, luci-app-alist
@@ -38,4 +64,67 @@ Filename: luci-i18n-alist-zh-cn_1.0.4-1_all.ipk
 Size: 1799
 SHA256sum: f222d46a53123f36dadfc977965137bed8a40152a61cc3675b10da35fb322444
 Description:  Translation for luci-app-alist - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-qbittorrent-simple-zh-cn
+Version: 1.0.0-3
+Depends: libc, luci-app-qbittorrent-simple
+Source: package/lean/luci-app-qbittorrent-simple
+SourceName: luci-i18n-qbittorrent-simple-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 756
+Filename: luci-i18n-qbittorrent-simple-zh-cn_1.0.0-3_all.ipk
+Size: 1576
+SHA256sum: 2d11e917127b36eda0d50c0af5f57fec01f191100ac014f6eb86d017868d3b08
+Description:  Translation for luci-app-qbittorrent-simple - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-qbittorrent-zh-cn
+Version: 1.0-23
+Depends: libc, luci-app-qbittorrent
+Source: feeds/luci/applications/luci-app-qbittorrent
+SourceName: luci-i18n-qbittorrent-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 5338
+Filename: luci-i18n-qbittorrent-zh-cn_1.0-23_all.ipk
+Size: 6166
+SHA256sum: 581c31e5d696edd2d39b441a257cec00f41cbd8349b72a2fa602abe9ceec9b98
+Description:  Translation for luci-app-qbittorrent - 简体中文 (Simplified Chinese)
+
+Package: qbittorrent
+Version: 4.4.3.1-1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, qt5-core, qt5-network, qt5-sql, qt5-xml, zlib
+Provides: qBittorrent
+Source: feeds/packages/net/qBittorrent
+SourceName: qbittorrent
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 5977065
+Filename: qbittorrent_4.4.3.1-1_aarch64_cortex-a53.ipk
+Size: 5976791
+SHA256sum: 837f9a926cf17b4bb9a56a1e60c40188da6d3eb75fa1538679dd24632e0174af
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qBittorrent-static
+Version: 4.4.2_v2.0.6-1
+Depends: libc
+Source: feeds/packages/net/qBittorrent-static
+SourceName: qBittorrent-static
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 18234030
+Filename: qBittorrent-static_4.4.2_v2.0.6-1_aarch64_cortex-a53.ipk
+Size: 18187659
+SHA256sum: 3ed483f07764ccdd843e44a9b0daa79edb48a28e2b4b508127e614a0eb08f7a6
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
 
