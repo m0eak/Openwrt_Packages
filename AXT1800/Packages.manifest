@@ -2990,6 +2990,21 @@ Size: 184996
 SHA256sum: 07c1005f46fb823a1ab610dae949d5c2a24fc13fdfa80b209d157233b85f06ac
 Description:  LuCI support for PassWall 2
 
+Package: luci-app-passwall
+Version: 4.55
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, chinadns-ng, hysteria, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-go, v2ray-core, v2ray-plugin, xray-core
+Source: feeds/kenzok8_packages/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1658578580
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 959521
+Filename: luci-app-passwall_4.55_all.ipk
+Size: 960267
+SHA256sum: ead2ca6b04c849fc587f28a55667dd5e5baae38dc223fd5dba999b3eb4a43e30
+Description:  LuCI support for PassWall
+
 Package: luci-app-qbittorrent
 Version: 1.0
 Depends: libc, qBittorrent-static
@@ -3536,6 +3551,20 @@ Filename: luci-i18n-passwall2-zh-cn_git-22.182.44403-d92bdee_all.ipk
 Size: 10227
 SHA256sum: 7ae8fdd439503687433bbc58893d422b55d45f2be5da7d5f419f9a083ccc2ac7
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall-zh-cn
+Version: git-22.182.03286-c5acf4e
+Depends: libc, luci-app-passwall
+Source: feeds/kenzok8_packages/luci-app-passwall
+SourceName: luci-i18n-passwall-zh-cn
+Section: luci
+SourceDateEpoch: 1658578580
+Architecture: all
+Installed-Size: 10483
+Filename: luci-i18n-passwall-zh-cn_git-22.182.03286-c5acf4e_all.ipk
+Size: 11350
+SHA256sum: 2f527c14b97880593bf10144b0dd1f7b492f527b3deb4f4ac3d31a9e4b5e05ce
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ramfree-zh-cn
 Version: git-21.267.56247-16a922f
@@ -5421,6 +5450,24 @@ Size: 252518
 SHA256sum: b627609427d62363dbb0ac37394e606814bc63e072f883ca4fef30027589656b
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
+Package: trojan-go
+Version: 0.10.6-17
+Depends: libc, ca-bundle
+Source: feeds/kenzok8_small_packages/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1652366302
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7
+Installed-Size: 4614062
+Filename: trojan-go_0.10.6-17_arm_cortex-a7.ipk
+Size: 4609206
+SHA256sum: 2c6f32e17c4e5a5a80c520a47cd0d52b503d904f8f8d0f2f1aef79b95c24bdac
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
 Package: ubox
 Version: 2020-10-25-9ef88681-2
 Depends: libc, libubox20220515, ubusd, ubus, libubus20210809, libuci20130104
@@ -5650,6 +5697,24 @@ Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a7.ipk
 Size: 11585
 SHA256sum: f6fb930407e0b3615becd38dd72777a1bbc387fa543f1b4e9c3cb7e901d2ecd5
 Description:  OpenWrt signature verification utility
+
+Package: v2ray-core
+Version: 5.0.7-28
+Depends: libc, ca-bundle
+Source: feeds/kenzok8_small_packages/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1655122867
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7
+Installed-Size: 7577611
+Filename: v2ray-core_5.0.7-28_arm_cortex-a7.ipk
+Size: 7564897
+SHA256sum: d87e3e66004333a811fcf76ef90e56df1b1cf9c82fd798e5c8f48481b0892a25
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
 
 Package: v2ray-geoip
 Version: 202206160052-8
