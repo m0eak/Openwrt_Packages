@@ -2118,6 +2118,17 @@ Description:  LuaSocket is the most comprehensive networking support
  library for the Lua language. It provides easy access to
  TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
 
+Package: luci-app-adguardhome
+Version: 1.8-11
+Depends: libc, wget
+Section: luci
+Architecture: all
+Installed-Size: 90584
+Filename: luci-app-adguardhome_1.8-11_all.ipk
+Size: 91689
+SHA256sum: 5d34b6832727dcd10b91f10ff4cfe1236d3c67bb5d4f232080f1009fb732125d
+Description:  LuCI support for adguardhome
+
 Package: luci-app-aliddns
 Version: 0.3.0
 Depends: libc, openssl-util, curl
