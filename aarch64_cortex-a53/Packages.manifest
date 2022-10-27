@@ -1604,17 +1604,16 @@ SHA256sum: d1626dcbe7ada3a6beeeef88d13fecb663e33ce4a51ec85681e154397708a532
 Description:  Netlink based bandwidth accounting
 
 Package: luci-app-openclash
-Version: 0.45.51-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
-Source: feeds/openclash/luci-app-openclash
-SourceName: luci-app-openclash
+Version: 0.45.59-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Source: package/luci-app-openclash/luci-app-openclash
 Section: opt
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 3914722
-Filename: luci-app-openclash_0.45.51-beta_all.ipk
-Size: 3898249
-SHA256sum: 383fbf501f7c2823231e98e1fc5ec5ca115f270ffcd02734e07e633c85b32ee6
+Installed-Size: 3920627
+Filename: luci-app-openclash_0.45.59-beta_all.ipk
+Size: 3904637
+SHA256sum: 3e542adf8eca9acd8fa179781fb32fe1fa7a76cd732f4026ae5393ae93768fe3
 Description:  A LuCI support for clash
 
 Package: luci-app-qbittorrent

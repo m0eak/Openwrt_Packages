@@ -2268,25 +2268,14 @@ SHA256sum: 636c46ce4635e1afdcd1705c8514824318aac4d4277a74000313b07f6abbdc0f
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-openclash
-Version: 0.45.47-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Version: 0.45.59-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 3908774
-Filename: luci-app-openclash_0.45.47-beta_all.ipk
-Size: 3892304
-SHA256sum: a825ff8179987211bdcd45c79081ef27edaf21cc64b4a1c57dbaf22bce8ddfa9
-Description:  A LuCI support for clash
-
-Package: luci-app-openclash
-Version: 0.45.51-beta
-Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
-Section: opt
-Architecture: all
-Installed-Size: 3910306
-Filename: luci-app-openclash_0.45.51-beta_all.ipk
-Size: 3893981
-SHA256sum: 41799edef0e7a59ffebcaf80495921f2af58def7234bcf034f1b75b58bcb0c91
+Installed-Size: 3920627
+Filename: luci-app-openclash_0.45.59-beta_all.ipk
+Size: 3904637
+SHA256sum: 3e542adf8eca9acd8fa179781fb32fe1fa7a76cd732f4026ae5393ae93768fe3
 Description:  A LuCI support for clash
 
 Package: luci-app-opkg
