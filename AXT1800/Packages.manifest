@@ -559,20 +559,20 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
-Version: 1.1.0-2
+Version: 1.1.0-1
 Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/dns2tcp
+Source: feeds/NueXini/dns2tcp
 SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1653557370
+SourceDateEpoch: 1654274098
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a7
-Installed-Size: 12037
-Filename: dns2tcp_1.1.0-2_arm_cortex-a7.ipk
-Size: 12802
-SHA256sum: ca412ac51e775c2fe293dc46183e4fbe55dc47519d018ffc1b0ff4ef3c382c83
+Installed-Size: 12036
+Filename: dns2tcp_1.1.0-1_arm_cortex-a7.ipk
+Size: 12777
+SHA256sum: c2fe096ed49c61fcbc81d77506bdcad74c162e0959ba40d18de947d87f10346d
 Description:  utility to convert dns query from udp to tcp
 
 Package: dnscrypt-proxy2
@@ -2894,36 +2894,36 @@ Size: 2702
 SHA256sum: bb5c3862f7090c26c3554a432e6b992bbc8ba4d0386d69b927797de63048f45d
 Description:  LuCI for CPU Freq Setting
 
-Package: luci-app-diskman
-Version: git-22.193.56947-21fa616
-Depends: libc, blkid, e2fsprogs, parted, smartmontools, lsblk
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-diskman
-SourceName: luci-app-diskman
-License: AGPL-3.0
+Package: luci-app-ddns
+Version: git-21.187.20976-699b7f0
+Depends: libc, luci-lib-ipkg, luci-mod-admin-full, ddns-scripts
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-app-ddns
+License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1657640947
+SourceDateEpoch: 1633719823
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 20466
-Filename: luci-app-diskman_git-22.193.56947-21fa616_all.ipk
-Size: 21331
-SHA256sum: b33a61e6fb382840bed6e5a26f475c73c90a25dbb87dd54c570d3a4c1782e8ce
-Description:  Disk Manager interface for LuCI
+Installed-Size: 12406
+Filename: luci-app-ddns_git-21.187.20976-699b7f0_all.ipk
+Size: 13328
+SHA256sum: d8faebe2b2d3e6f4aaac02125e8e78aa9ffd98b546de5b5f04d79912f8f36e55
+Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
 
 Package: luci-app-diskman
-Version: git-22.194.03122-b202c59
-Depends: libc, blkid, e2fsprogs, parted, smartmontools, lsblk
+Version: git-22.255.44574-634c59a
+Depends: libc, blkid, e2fsprogs, parted, smartmontools
 Source: feeds/kenzok8_packages/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1657673522
+SourceDateEpoch: 1662985374
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20460
-Filename: luci-app-diskman_git-22.194.03122-b202c59_all.ipk
-Size: 21300
-SHA256sum: a5e26c3b2f12315d847e86007a236d2104902523040f47ceb94d01e47ef4af2b
+Filename: luci-app-diskman_git-22.255.44574-634c59a_all.ipk
+Size: 21311
+SHA256sum: a2f22d2338d480192b516967ea8b80fde70bbd315a468bb4e9bd8ef056e23578
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-firewall
@@ -3105,6 +3105,21 @@ Filename: luci-app-syncdial_2.0_all.ipk
 Size: 6084
 SHA256sum: 22c6254681599b8ab593ace8c66b018c1908b5fc5aad200a4d22b81844c432b5
 Description:  Virtual WAN config generator
+
+Package: luci-app-ttyd
+Version: git-21.281.64389-70f3ae5
+Depends: libc, ttyd
+Source: feeds/luci/applications/luci-app-ttyd
+SourceName: luci-app-ttyd
+Section: luci
+SourceDateEpoch: 1633719823
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2024
+Filename: luci-app-ttyd_git-21.281.64389-70f3ae5_all.ipk
+Size: 2882
+SHA256sum: 86db3aa48f7dc7380c7e866105878333e4b2d6049db4a95abb86b91a04dac7b8
+Description:  ttyd - Command-line tool for sharing terminal over the web
 
 Package: luci-app-turboacc
 Version: git-22.143.15400-6c728bf
@@ -3306,23 +3321,6 @@ SHA256sum: 76f33890172417debc110007634c19a2802a2444c5df6214f84ccfa46e061a21
 Description:  LuCI compatibility libraries
 
 Package: luci-i18n-aliddns-zh-cn
-Version: git-22.115.58419-940051f
-Depends: libc, luci-app-aliddns
-Source: feeds/kenzok8_packages/luci-app-aliddns
-SourceName: luci-i18n-aliddns-zh-cn
-License: MIT
-LicenseFiles: LICENSE
-Section: luci
-SourceDateEpoch: 1651736493
-Maintainer: chenhw2 <https://github.com/chenhw2/>
-Architecture: all
-Installed-Size: 775
-Filename: luci-i18n-aliddns-zh-cn_git-22.115.58419-940051f_all.ipk
-Size: 1700
-SHA256sum: 4b2ddccc7b1855bf1323551dc8c4ff2705a96648f4417c1d02075b4f61c412f7
-Description:  Translation for luci-app-aliddns - 简体中文 (Chinese Simplified)
-
-Package: luci-i18n-aliddns-zh-cn
 Version: git-22.182.03729-2924df6
 Depends: libc, luci-app-aliddns
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-aliddns
@@ -3370,18 +3368,18 @@ SHA256sum: e754dc67dac2e16e9156ac7b09cf66c435919e8859df370c2a793a5312f656bb
 Description:  Translation for luci-app-appfilter - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: git-22.125.12298-0b04b91
+Version: git-22.125.27693-0ae9bd9
 Depends: libc, luci-app-argon-config
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-argon-config
+Source: feeds/kenzok8_packages/luci-app-argon-config
 SourceName: luci-i18n-argon-config-zh-cn
 Section: luci
-SourceDateEpoch: 1651721098
+SourceDateEpoch: 1651736493
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
-Installed-Size: 1457
-Filename: luci-i18n-argon-config-zh-cn_git-22.125.12298-0b04b91_all.ipk
-Size: 2368
-SHA256sum: a9a8180a5b4fdbdfeba8c851fce4be52d5f84c3bf54f169efe157d73602e3124
+Installed-Size: 1453
+Filename: luci-i18n-argon-config-zh-cn_git-22.125.27693-0ae9bd9_all.ipk
+Size: 2343
+SHA256sum: 7aa6251e8105a98a04d066172a8c29e9a8a9cfe261162934c00d1c058ae72572
 Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argonne-config-zh-cn
@@ -3458,21 +3456,37 @@ Size: 1724
 SHA256sum: 81247f7658f4bc31d81413db07caee2076a990a340930c2bf15b9f07331ed269
 Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
 
-Package: luci-i18n-diskman-zh-cn
-Version: git-22.084.46062-e6c56cd
-Depends: libc, luci-app-diskman
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-diskman
-SourceName: luci-i18n-diskman-zh-cn
-License: AGPL-3.0
+Package: luci-i18n-ddns-en
+Version: git-21.281.68623-28b9663
+Depends: libc, luci-app-ddns
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-i18n-ddns-en
+License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1657640947
-Maintainer: lisaac <lisaac.cn@gmail.com>
+SourceDateEpoch: 1633719823
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
 Architecture: all
-Installed-Size: 1901
-Filename: luci-i18n-diskman-zh-cn_git-22.084.46062-e6c56cd_all.ipk
-Size: 2823
-SHA256sum: 5441ab0e75cd809f79b8cee3c61640eb226a0d277a4efda2935c561af09c075b
-Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+Installed-Size: 357
+Filename: luci-i18n-ddns-en_git-21.281.68623-28b9663_all.ipk
+Size: 1209
+SHA256sum: a1b0c0421780ef31a93cfea3bf2a26bef55bb67f934536601346515f86afa322
+Description:  Translation for luci-app-ddns - English
+
+Package: luci-i18n-ddns-zh-cn
+Version: git-21.281.68623-28b9663
+Depends: libc, luci-app-ddns
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-i18n-ddns-zh-cn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1633719823
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 5145
+Filename: luci-i18n-ddns-zh-cn_git-21.281.68623-28b9663_all.ipk
+Size: 6019
+SHA256sum: 8da9d81c26ff9085d7aea18e7262cc5e8ee162fe3ca54fa3a7d9d49aed2759d2
+Description:  Translation for luci-app-ddns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-cn
 Version: git-22.101.30176-76f3dcb
@@ -3575,6 +3589,20 @@ Size: 1270
 SHA256sum: 049d7b848a9b73ec91915071070b768ec4c8077077f7d141d31ae98e07dd1eb6
 Description:  Translation for luci-app-ramfree - 简体中文 (Chinese Simplified)
 
+Package: luci-i18n-samba4-en
+Version: git-21.281.68623-28b9663
+Depends: libc, luci-app-samba4
+Source: feeds/luci/applications/luci-app-samba4
+SourceName: luci-i18n-samba4-en
+Section: luci
+SourceDateEpoch: 1633719823
+Architecture: all
+Installed-Size: 615
+Filename: luci-i18n-samba4-en_git-21.281.68623-28b9663_all.ipk
+Size: 1427
+SHA256sum: 4c79209f016d67bf3db92893d9fb59235c31205c8ec230bc65629ba0d8ac3e6e
+Description:  Translation for luci-app-samba4 - English
+
 Package: luci-i18n-samba4-zh-cn
 Version: git-21.281.68623-28b9663
 Depends: libc, luci-app-samba4
@@ -3606,32 +3634,46 @@ SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: git-22.165.56616-51f41d9
-Depends: libc, luci-app-ssr-plus
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/luci-app-ssr-plus
-SourceName: luci-i18n-ssr-plus-zh-cn
-Section: luci
-SourceDateEpoch: 1658838056
-Architecture: all
-Installed-Size: 5981
-Filename: luci-i18n-ssr-plus-zh-cn_git-22.165.56616-51f41d9_all.ipk
-Size: 6843
-SHA256sum: b186ed2f15f602e313dc79ee86d0d5df6f89fccdff44edd6b63348a9c1febbb2
-Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
-
-Package: luci-i18n-ssr-plus-zh-cn
-Version: git-22.165.62348-5433907
+Version: git-22.265.03527-255c7e4
 Depends: libc, luci-app-ssr-plus
 Source: feeds/kenzok8_packages/luci-app-ssr-plus
 SourceName: luci-i18n-ssr-plus-zh-cn
 Section: luci
-SourceDateEpoch: 1660611447
+SourceDateEpoch: 1663808327
 Architecture: all
-Installed-Size: 5985
-Filename: luci-i18n-ssr-plus-zh-cn_git-22.165.62348-5433907_all.ipk
-Size: 6832
-SHA256sum: a8ab1989630ef3fe17704655294174c830e0de0d2f39b1527aa8a55310595265
+Installed-Size: 5995
+Filename: luci-i18n-ssr-plus-zh-cn_git-22.265.03527-255c7e4_all.ipk
+Size: 6847
+SHA256sum: 14e55c1a6b59842e9ad872c74df3346cb663e8e1261012c6e51f7f95defddab6
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ttyd-en
+Version: git-21.281.68623-28b9663
+Depends: libc, luci-app-ttyd
+Source: feeds/luci/applications/luci-app-ttyd
+SourceName: luci-i18n-ttyd-en
+Section: luci
+SourceDateEpoch: 1633719823
+Architecture: all
+Installed-Size: 358
+Filename: luci-i18n-ttyd-en_git-21.281.68623-28b9663_all.ipk
+Size: 1159
+SHA256sum: 768df6e009e081b8ec90a2d6ee7ba37cb6199596fd0f24d595bbc83711da7020
+Description:  Translation for luci-app-ttyd - English
+
+Package: luci-i18n-ttyd-zh-cn
+Version: git-21.281.68623-28b9663
+Depends: libc, luci-app-ttyd
+Source: feeds/luci/applications/luci-app-ttyd
+SourceName: luci-i18n-ttyd-zh-cn
+Section: luci
+SourceDateEpoch: 1633719823
+Architecture: all
+Installed-Size: 1669
+Filename: luci-i18n-ttyd-zh-cn_git-21.281.68623-28b9663_all.ipk
+Size: 2529
+SHA256sum: 783441de5a1abe10b6fa4b21559372267622e59382d6c95ccf1121ad05d5993a
+Description:  Translation for luci-app-ttyd - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-turboacc-zh-cn
 Version: git-21.352.51446-210156f
@@ -4086,24 +4128,6 @@ Filename: luci-theme-tomato_git-22.084.12327-e608761_all.ipk
 Size: 210500
 SHA256sum: ab3d70961e0d4f61d4bbf34365a9e92cdb2f48c1f8843d292c998d5be5489114
 Description:  Tomato new kenzo
-
-Package: microsocks
-Version: 1.0.3-3
-Depends: libc, libpthread
-Source: feeds/kenzok8_packages/microsocks
-SourceName: microsocks
-License: MIT
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1649669763
-Maintainer: lean
-Architecture: arm_cortex-a7
-Installed-Size: 5108
-Filename: microsocks_1.0.3-3_arm_cortex-a7.ipk
-Size: 5891
-SHA256sum: 3de60a8a0a2e24456458320e2eb5d61f4832b378973752ea0a0917e4c304e5c6
-Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
- through them, if for some reason SSH doesn't cut it for you.
 
 Package: microsocks
 Version: 1.0.3-7
@@ -5035,23 +5059,6 @@ Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbc
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
 
 Package: shadowsocks-libev-config
-Version: 3.3.5-1
-Depends: libc
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-config
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 2716
-Filename: shadowsocks-libev-config_3.3.5-1_arm_cortex-a7.ipk
-Size: 3522
-SHA256sum: 6476e1a40d3bdde51a6530c4ec438a6f553b31e9806fdcb4a646a9fa71f4e549
-Description:  shadowsocks-libev config scripts
-
-Package: shadowsocks-libev-config
 Version: 3.3.5-5
 Depends: libc
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -5069,23 +5076,6 @@ SHA256sum: b767753d7916acb00537e6796ee719568e71f28f1b338282bff2734b10411172
 Description:  shadowsocks-libev config scripts
 
 Package: shadowsocks-libev-ss-local
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-ss-local
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 48287
-Filename: shadowsocks-libev-ss-local_3.3.5-1_arm_cortex-a7.ipk
-Size: 49154
-SHA256sum: 821f047954ab243ecd09ecbd9b0a724c5c0ac7e51672a2fb89391897eeb0dbfe
-Description:  shadowsocks-libev ss-local
-
-Package: shadowsocks-libev-ss-local
 Version: 3.3.5-5
 Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/shadowsocks-libev
@@ -5101,23 +5091,6 @@ Filename: shadowsocks-libev-ss-local_3.3.5-5_arm_cortex-a7.ipk
 Size: 49180
 SHA256sum: 2c6dfb21b5a603c8dd4bde51a66abe7e9c9c57a3ee62b22da46757d790956a88
 Description:  shadowsocks-libev ss-local
-
-Package: shadowsocks-libev-ss-redir
-Version: 3.3.5-1
-Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
-Source: feeds/packages/net/shadowsocks-libev
-SourceName: shadowsocks-libev-ss-redir
-License: GPL-3.0-or-later
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1600679999
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Architecture: arm_cortex-a7
-Installed-Size: 44056
-Filename: shadowsocks-libev-ss-redir_3.3.5-1_arm_cortex-a7.ipk
-Size: 44693
-SHA256sum: 5999a7b8de74871a0d458239e3bb6d410bf0d1c3e77dfa1c027580ec5da1397e
-Description:  shadowsocks-libev ss-redir
 
 Package: shadowsocks-libev-ss-redir
 Version: 3.3.5-5
@@ -5232,6 +5205,24 @@ Installed-Size: 27198
 Filename: simple-obfs_0.0.5-8_arm_cortex-a7.ipk
 Size: 28020
 SHA256sum: b66ff07ecdbc2c4b4f7538916654096df6c60c4adedb0bcfb5f0029a8ea4795f
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-client
+Version: 0.0.5-4
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/NueXini/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1646447535
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7
+Installed-Size: 27197
+Filename: simple-obfs-client_0.0.5-4_arm_cortex-a7.ipk
+Size: 28016
+SHA256sum: 0979a4478ee5a59f8daebb20dd056a10b2328213995c5335495ad34c49e1aeca
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: smartdns
@@ -5362,22 +5353,6 @@ Filename: tc-mod-iptables_5.11.0-3_arm_cortex-a7.ipk
 Size: 4157
 SHA256sum: 522dc10b97a7932acb0bb189acffa442b6218ecf2a89f1a3ba1a9ae213b5f7e7
 Description:  Traffic control module - iptables action
-
-Package: tcping
-Version: 0.3-1
-Depends: libc
-Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/tcping
-SourceName: tcping
-License: GPL-2.0-only
-LicenseFiles: license.txt
-Section: net
-SourceDateEpoch: 1652366302
-Architecture: arm_cortex-a7
-Installed-Size: 3502
-Filename: tcping_0.3-1_arm_cortex-a7.ipk
-Size: 4239
-SHA256sum: 043b7a6558f974b926132d72695767f0b736bbfe0e6963e117beb8ca6164028d
-Description:  tcping measures the latency of a tcp-connection
 
 Package: tcping
 Version: 0.3-3
