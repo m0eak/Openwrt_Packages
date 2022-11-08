@@ -738,6 +738,25 @@ Size: 2166
 SHA256sum: 76b409d401a891b7a8115b1ebc9ce8dcff4b1bf9f38fe8be8d9f62be74594dd3
 Description:  OpenWrt getrandom system helper
 
+Package: haproxy
+Version: 2.4.16-7
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+Source: /home/glinet/work/soft/cool-packages/net/haproxy
+SourceName: haproxy
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1652545003
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: arm_cortex-a7
+Installed-Size: 952852
+Filename: haproxy_2.4.16-7_arm_cortex-a7.ipk
+Size: 952796
+SHA256sum: 821fc3febcc16f2dbc8bc1b134338a451f69ea9a3dc099d387aa6306d41b56a5
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
 Package: hostapd-common
 Version: 2021-02-20-59e9794c-2
 Depends: libc
@@ -2216,6 +2235,25 @@ Size: 8457
 SHA256sum: 5fe9100837f87da820e2a9e48c89d7e7f99cdfcffc9e691129318aa81c671151
 Description:  This pacakge contains libss, a command-line interface parsing library
  bundled with e2fsprogs.
+
+Package: libstdcpp6
+Version: 8.4.0-3
+Provides: libstdcpp
+Source: package/libs/toolchain
+SourceName: libstdcpp
+License: GPL-3.0-with-GCC-exception
+Section: libs
+SourceDateEpoch: 1608660710
+ABIVersion: 6
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7
+Installed-Size: 260351
+Filename: libstdcpp6_8.4.0-3_arm_cortex-a7.ipk
+Size: 258581
+SHA256sum: 216027d3452f54498c06edc59310073900ed59e49a45b504e262007c5af033da
+Description:  GNU Standard C++ Library v3
 
 Package: libtasn1
 Version: 4.16.0-1
