@@ -393,6 +393,23 @@ Description:  This package contains an utility to establish conversation with ot
  (via a modem).
 
 Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/NueXini/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666629990
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a7
+Installed-Size: 16728
+Filename: chinadns-ng_1.0-beta.25-1_arm_cortex-a7.ipk
+Size: 17513
+SHA256sum: 5e4e343ff498330275d3c34531cb7a95de54e26572934f07f89f053e52d5c1f8
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: chinadns-ng
 Version: 1.0-beta.25-9
 Depends: libc, ipset
 Source: /home/m0eak/gl-infra-builder/feeds/kenzo8/chinadns-ng
@@ -3672,17 +3689,17 @@ SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ssr-plus-zh-cn
-Version: git-22.265.03527-255c7e4
+Version: git-22.298.04075-39363bc
 Depends: libc, luci-app-ssr-plus
 Source: feeds/kenzok8_packages/luci-app-ssr-plus
 SourceName: luci-i18n-ssr-plus-zh-cn
 Section: luci
-SourceDateEpoch: 1663808327
+SourceDateEpoch: 1666660075
 Architecture: all
-Installed-Size: 5995
-Filename: luci-i18n-ssr-plus-zh-cn_git-22.265.03527-255c7e4_all.ipk
-Size: 6847
-SHA256sum: 14e55c1a6b59842e9ad872c74df3346cb663e8e1261012c6e51f7f95defddab6
+Installed-Size: 6066
+Filename: luci-i18n-ssr-plus-zh-cn_git-22.298.04075-39363bc_all.ipk
+Size: 6908
+SHA256sum: e6666b1f0bad9a64f4b3c07caeca571b94303a690c05a0b493405afcad8bfe67
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ttyd-en
