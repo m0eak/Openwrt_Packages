@@ -761,6 +761,18 @@ Size: 9841
 SHA256sum: 27bb3a57c22ffc8492d684a27ecbf9ddc0aae7ddb6d33c358be842037a3af500
 Description:  OpenWrt JSON filter utility
 
+Package: kmod-ipt-fullconenat
+Version: 4.4.60+2018-12-15-d4daedd0-1
+Depends: kernel (=4.4.60-1-44777936a300e33df361b1df7140b81a), kmod-nf-ipt, kmod-nf-nat
+License: GPL-2.0
+Section: kernel
+Architecture: arm_cortex-a7
+Installed-Size: 5028
+Filename: kmod-ipt-fullconenat_4.4.60+2018-12-15-d4daedd0-1_arm_cortex-a7.ipk
+Size: 5825
+SHA256sum: 9900e4a1916b496635b28480bf6ef53d2b11e44c0d80586203594393f248a2af
+Description:  FULLCONENAT netfilter module
+
 Package: libattr
 Version: 2.4.48-2
 Depends: libc
