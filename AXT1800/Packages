@@ -674,6 +674,18 @@ Size: 29193
 SHA256sum: 6f3c4018ccf04b47eaf36ecd47adec259612e1ec9409900a07cd9c3125072de3
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
+Package: iptables-mod-fullconenat
+Version: 2018-12-15-d4daedd0-1
+Depends: libc, iptables, kmod-ipt-fullconenat
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7
+Installed-Size: 1795
+Filename: iptables-mod-fullconenat_2018-12-15-d4daedd0-1_arm_cortex-a7.ipk
+Size: 2591
+SHA256sum: 45a51a3cc2b4f9d78ad4583c9ff2ea38b9595f3308c1f33464e3393a6c9234b8
+Description:  FULLCONENAT iptables extension
+
 Package: iputils-arping
 Version: 20210202-1
 Depends: libc
@@ -2308,6 +2320,17 @@ Size: 15036
 SHA256sum: 636c46ce4635e1afdcd1705c8514824318aac4d4277a74000313b07f6abbdc0f
 Description:  Firewall and Portforwarding application
 
+Package: luci-app-fullconenat
+Version: 1.3
+Depends: libc, iptables-mod-fullconenat
+Section: luci
+Architecture: all
+Installed-Size: 2419
+Filename: luci-app-fullconenat_1.3_all.ipk
+Size: 3295
+SHA256sum: 332b9128f36a0334f880c082d5ce4a49677cbcf4b3d477b4cd9e562964270afe
+Description:  LuCI support for FullConeNat
+
 Package: luci-app-openclash
 Version: 0.45.59-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
@@ -2827,6 +2850,17 @@ Filename: luci-i18n-smartdns-zh-cn_git-21.281.64986-23babd7_all.ipk
 Size: 3697
 SHA256sum: 10893124a3e78c83841c269d00a9d4ec824c4d649e405de5b5ee5f2ef3042e4e
 Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-22.265.03527-255c7e4
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 5995
+Filename: luci-i18n-ssr-plus-zh-cn_git-22.265.03527-255c7e4_all.ipk
+Size: 6847
+SHA256sum: 14e55c1a6b59842e9ad872c74df3346cb663e8e1261012c6e51f7f95defddab6
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-ssr-plus-zh-cn
 Version: git-22.298.04075-39363bc
