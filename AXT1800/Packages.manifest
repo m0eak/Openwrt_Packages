@@ -1,3 +1,19 @@
+Package: alist
+Version: 3.11.0-1
+Depends: libc
+Source: /feed/alist
+SourceName: alist
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1676392555
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: arm_cortex-a7
+Installed-Size: 13421008
+Filename: alist_3.11.0-1_arm_cortex-a7.ipk
+Size: 13382011
+SHA256sum: 8720116453680b341983e66389119bf9663cd6da0a18313efb8077b7a3e56bf1
+Description:  A file list program that supports multiple storage
+
 Package: aliyundrive-webdav
 Version: 1.10.1-25
 Depends: libc
@@ -2861,6 +2877,21 @@ Size: 4501
 SHA256sum: ef2d12dd586a843139b3df8e4d70589cb030c809b84899a63886cf319d6bb998
 Description:  LuCI Support for ALiDDNS.
 
+Package: luci-app-alist
+Version: 1.0.7
+Depends: libc, alist, luci-compat
+Source: /feed/luci-app-alist
+SourceName: luci-app-alist
+Section: luci
+SourceDateEpoch: 1668182672
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6614
+Filename: luci-app-alist_1.0.7_all.ipk
+Size: 7381
+SHA256sum: 862d17c1a916dbd1183f193ef5b572416cfbbdbc28694497469ff5ca55b13a1a
+Description:  LuCI support for alist
+
 Package: luci-app-aliyundrive-webdav
 Version: 1.10.1
 Depends: libc, aliyundrive-webdav
@@ -3440,6 +3471,20 @@ Filename: luci-i18n-aliddns-zh-cn_git-22.182.03729-2924df6_all.ipk
 Size: 1718
 SHA256sum: 1c5f1170400b3ad3408e344deeeff1bb3741bef0a5b374c7a3380a8bfb2148b2
 Description:  Translation for luci-app-aliddns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-alist-zh-cn
+Version: git-22.315.57872-eca2b61
+Depends: libc, luci-app-alist
+Source: /feed/luci-app-alist
+SourceName: luci-i18n-alist-zh-cn
+Section: luci
+SourceDateEpoch: 1668182672
+Architecture: all
+Installed-Size: 956
+Filename: luci-i18n-alist-zh-cn_git-22.315.57872-eca2b61_all.ipk
+Size: 1785
+SHA256sum: 207c91f2b82720b0702e8d0e969227bf59d9c9b8210c15fbaa20b00f4265cec8
+Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-aliyundrive-webdav-zh-cn
 Version: 1.10.1-1
