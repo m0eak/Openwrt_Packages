@@ -785,6 +785,18 @@ Size: 5825
 SHA256sum: 9900e4a1916b496635b28480bf6ef53d2b11e44c0d80586203594393f248a2af
 Description:  FULLCONENAT netfilter module
 
+Package: kmod-usb-net-rtl8152
+Version: 4.4.60-1
+Depends: kernel (=4.4.60-1-f9089b54edb8de53a6f91f9e08c85b5f), kmod-usb-net
+License: GPL-2.0
+Section: kernel
+Architecture: arm_cortex-a7
+Installed-Size: 19385
+Filename: kmod-usb-net-rtl8152_4.4.60-1_arm_cortex-a7.ipk
+Size: 20165
+SHA256sum: 4e3559dc242cc03986532fa1f5a6e6e68d62b53e17d03d4daff70f9ce07bbe35
+Description:  Kernel module for USB-to-Ethernet Realtek 8152 USB2.0/3.0 convertors
+
 Package: libattr
 Version: 2.4.48-2
 Depends: libc
